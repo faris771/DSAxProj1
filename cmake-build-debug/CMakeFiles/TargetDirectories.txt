@@ -1,0 +1,3 @@
+/home/hp/CLionProjects/DSAxProj1/cmake-build-debug/CMakeFiles/DSAxProj1.dir
+/home/hp/CLionProjects/DSAxProj1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/hp/CLionProjects/DSAxProj1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
