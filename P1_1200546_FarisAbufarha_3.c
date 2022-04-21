@@ -14,13 +14,18 @@
 #include <math.h>
 
 
+
 #define null NULL
 #define ll long long
+#define MAX_STRING 4095
 
+typedef char* String;
 typedef struct Bus{
 
     int busID;
     //could be either string or int
+    int date;
+    char depTime[5];
 
 
 
@@ -28,14 +33,8 @@ typedef struct Bus{
 }Bus;
 
 int main(){
-    //test
 
-
-    //JEHAD
-
-
-
-
+    printf("hello world\n");
 
 
 
