@@ -14,7 +14,6 @@
 #include <math.h>
 
 
-typ
 #define null NULL
 #define ll long long
 
@@ -32,6 +31,7 @@ int main(){
     //test
 
 
+    //JEHAD
 
 
 
