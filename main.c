@@ -75,8 +75,6 @@ typedef struct Bus {
 //int sizeOfList(node *head);
 
 
-
-
 int countLines(char *filename);
 
 void memoryMsg();
@@ -119,6 +117,7 @@ int main() {
             case 1:
                 //load bus
                 busArray = loadBusInfo();
+                printf("\n ID IS : %d\n",busArray[2].busID);
                 break;
 
             case 2:
@@ -149,14 +148,16 @@ int main() {
                 break;
             case 9:
                 printf("THANK YOU, COME AGAIN :)\n");
-                return 1;
+                return 0;
+            default:
+                puts("PLEASE ENTER VALID INPUT");
+                break;
+
         }
 
 
     }
 
-
-    return 0;
 }
 
 
@@ -198,7 +199,7 @@ Bus *loadBusInfo() {
     int sizeOfBusArray = countLines("busses.txt") + 1;
     printf("%d\n", sizeOfBusArray);
 
-    Bus bussArray[sizeOfBusArray]; // +1 for the late students
+    Bus *bussArray = malloc(sizeof(Bus) * sizeOfBusArray); // +1 for the late students
 
     int i = 0;
     while (fgets(buffer, MAX_LINE, pReadBus)) {
@@ -214,6 +215,9 @@ Bus *loadBusInfo() {
         capacity = strtok(null, "#");
 
         tmpBus = malloc(sizeof(Bus));
+        if (tmpBus == null){
+            memoryMsg();
+        }
 
         tmpBus->busID = atoi(busID);
         tmpBus->date = atoi(date);
@@ -224,11 +228,9 @@ Bus *loadBusInfo() {
         tmpBus->capacity = atoi(capacity);
         tmpBus->busNextPassenger = null;
 
-        printf("%s -> %s\n", fromDestination,toDestination);
-
-
         bussArray[i] = *tmpBus;
 
+        free(tmpBus);
 
         i++;
     }
