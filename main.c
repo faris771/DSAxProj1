@@ -25,11 +25,11 @@ typedef char *String;
 
 
 typedef struct Passenger {
-    int id;
-    int date;
-    char studentDepTime[5];
-    char studentFromDestination[MAX_STRING];
-    char studentToDestination[MAX_STRING];
+    int passID;
+    int passDate;
+    String passengerDepTime;
+    String passengerFromDestination;
+    String passengerToDestination;
 
     struct Passenger *passengerNextPassenger;
 
@@ -117,11 +117,12 @@ int main() {
             case 1:
                 //load bus
                 busArray = loadBusInfo();
-                printf("\n ID IS : %d\n",busArray[2].busID);
+                printf("\n ID IS : %d\n", busArray[2].busID);//test
                 break;
 
             case 2:
                 //load pass
+
                 break;
 
             case 3:
@@ -189,12 +190,6 @@ Bus *loadBusInfo() {
         printf("FILE NOT FOUND\n");
     }
 
-
-    //    while (fgets(buffer, MAX_LINE, pReadBus)) {
-//
-//        busCnt++;
-//    }
-
     char buffer[MAX_LINE];
     int sizeOfBusArray = countLines("busses.txt") + 1;
     printf("%d\n", sizeOfBusArray);
@@ -215,7 +210,7 @@ Bus *loadBusInfo() {
         capacity = strtok(null, "#");
 
         tmpBus = malloc(sizeof(Bus));
-        if (tmpBus == null){
+        if (tmpBus == null) {
             memoryMsg();
         }
 
@@ -235,6 +230,7 @@ Bus *loadBusInfo() {
         i++;
     }
     fclose(pReadBus);
+    //free busArray ??
 
     return bussArray;
 
@@ -242,25 +238,76 @@ Bus *loadBusInfo() {
 
 
 Passenger *loadPassInfo() {
-    return NULL;
-}
 
-int countLines(char *filename) {
-    // count the number of lines in the file called filename
-    FILE *fp = fopen(filename, "r");
-    int ch = 0;
-    int lines = 0;
+    String passID;     //initially int
+    String passDate;   //int
+    String passengerDepTime;
+    String passengerFromDestination;
+    String passengerToDestination;
 
-    if (fp == NULL) {
-        return 0;
+    Passenger *tmpPassenger = null;
+
+
+//    Bus tmpBus;
+
+    FILE *pReadPass = null;
+    pReadPass = fopen("passengers.txt", "r");
+
+    if (pReadPass == null) {
+        printf("FILE NOT FOUND\n");
     }
 
-    lines++;
-    while ((ch = fgetc(fp)) != EOF) {
-        if (ch == '\n') {
-            lines++;
+    char buffer[MAX_LINE];
+//    int sizeOfBusArray = countLines("passengers.txt") + 1;
+//    Bus *bussArray = malloc(sizeof(Bus) * sizeOfBusArray); // +1 for the late students
+
+    while (fgets(buffer, MAX_LINE, pReadPass)) {
+
+        printf("%s", buffer);
+
+        passID = strtok(buffer, "#");
+        passDate = strtok(null, "#");
+        passengerDepTime = strtok(null, "#");
+        passengerFromDestination = strtok(null, "#");
+        passengerToDestination = strtok(null, "#");
+
+        tmpPassenger = malloc(sizeof(Passenger));
+
+        if (tmpPassenger == null) {
+            memoryMsg();
+            exit(1);
         }
+
+        tmpPassenger->passID = atoi(passID);
+
+        tmpPassenger->passDate = atoi(passDate);
+        tmpPassenger->passengerDepTime = passengerDepTime;
+        tmpPassenger->passengerFromDestination = passengerFromDestination;
+        tmpPassenger->passengerToDestination = passengerToDestination;
+        tmpPassenger->passengerNextPassenger = null;
+
+
     }
-    fclose(fp);
-    return lines;
+
+
+    int countLines(char *filename) {
+        // count the number of lines in the file called filename
+        FILE *fp = fopen(filename, "r");
+        int ch = 0;
+        int lines = 0;
+
+        if (fp == NULL) {
+            return 0;
+        }
+
+        lines++;
+        while ((ch = fgetc(fp)) != EOF) {
+            if (ch == '\n') {
+                lines++;
+            }
+        }
+        fclose(fp);
+        return lines;
+
+    }
 }
