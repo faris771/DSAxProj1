@@ -11,7 +11,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include <math.h>
 #include <string.h>
 
 
@@ -41,12 +40,12 @@ typedef struct Bus {
     int busID;
     //could be either string or int
     int date;
-    String depTime;
-    String fromDestination;
-    String toDestination;
+    char depTime[200];
+    char fromDestination[200];
+    char toDestination[200];
     double price;
     int maxCapacity;
-    int currentCapacity ;
+    int currentCapacity;
 
     struct Passenger *busNextPassenger;
 
@@ -80,21 +79,20 @@ int countLines(char *filename);
 
 void memoryMsg();
 
-Bus *loadBusInfo();
+void loadBusInfo(Bus *busArray);
 
-int busIndex(Bus * busArray,int sizeOfBusArray, Passenger passenger);
+Passenger *loadPassInfo(Bus *busArray, int busArraySize);
+
+int busIndex(Bus *busArray, int sizeOfBusArray, Passenger passenger);
 
 //plan b make the array global
-
-Passenger *loadPassInfo(Bus * busArray, int busArraySize);
 
 
 int main() {
 
-    Bus *busArray = null;
 
     int sizeOfBusArray = countLines("busses.txt") + 1;
-
+    Bus busArray[sizeOfBusArray];
     printf("WELCOME\n");
     int selection;
 
@@ -122,8 +120,14 @@ int main() {
 
             case 1:
                 //load bus
-                busArray = loadBusInfo();
-                printf("ID IS : %s \n", busArray[3].toDestination);//test
+                loadBusInfo(busArray);
+
+                for (int i = 0; i < 4; ++i) {
+                    printf("id  %d\n",busArray[i].busID);
+                    printf("\nfrom dest bus : %s to : %s \n",busArray[i].fromDestination,busArray[i].toDestination);//test
+
+                }
+
 
                 break;
 
@@ -158,6 +162,7 @@ int main() {
                 printf("THANK YOU, COME AGAIN :)\n");
                 return 0;
             default:
+
                 puts("PLEASE ENTER VALID INPUT");
                 break;
 
@@ -174,19 +179,20 @@ void memoryMsg() {
     printf("OUT OF MEMORY!\n");
 }
 
-Bus *loadBusInfo() {
+void loadBusInfo(Bus *busArray) {
     //taking them as strings then we will parse some of them into to ints or whatever
 
-    String busID;
-    String date;
-    String depTime;
-    String fromDestination;
-    String toDestination;
-    String price;
-    String capacity;
+    //char* = String
 
-    Bus *tmpBus = null;
+    char busID              [200]    ;
+    char date               [200]    ;
+    char depTime            [200]    ;
+    char fromDestination    [200]            ;
+    char toDestination      [200]         ;
+    char price              [200]        ;
+    char maxCapacity           [200]                ;
 
+//    Bus *tmpBus = null; // creates bus nodes
 
 //    Bus tmpBus;
 
@@ -198,40 +204,63 @@ Bus *loadBusInfo() {
     }
 
     char buffer[MAX_LINE];
-    int sizeOfBusArray = countLines("busses.txt") + 1;// +1 for the late students
-    printf("%d\n", sizeOfBusArray);
+//    int sizeOfBusArray = countLines("busses.txt") + 1;// +1 for the late students
 
-    Bus *bussArray = malloc(sizeof(Bus) * sizeOfBusArray);
 
     int i = 0;
     while (fgets(buffer, MAX_LINE, pReadBus)) {
 
         printf("%s", buffer);
 
-        busID = strtok(buffer, "#");
-        date = strtok(null, "#");
-        depTime = strtok(null, "#");
-        fromDestination = strtok(null, "#");
-        toDestination = strtok(null, "#");
-        price = strtok(null, "#");
-        capacity = strtok(null, "#");
+        strcpy(busID , strtok(buffer, "#"));
+        strcpy(date          , strtok(null, "#"));
+        strcpy(depTime        ,    strtok(null, "#"));
+        strcpy(fromDestination ,             strtok(null, "#"));
+        strcpy(toDestination   ,         strtok(null, "#"));
+        strcpy(price           ,     strtok(null, "#"));
+        strcpy(maxCapacity     ,         strtok(null, "#"));
 
-        tmpBus = malloc(sizeof(Bus));
-        if (tmpBus == null) {
-            memoryMsg();
-        }
 
-        tmpBus->busID = atoi(busID);
-        tmpBus->date = atoi(date);
-        tmpBus->depTime = depTime;
-        tmpBus->fromDestination = fromDestination;
-        tmpBus->toDestination = toDestination;
-        tmpBus->price = atof(price); // parsing double
-        tmpBus->maxCapacity = atoi(capacity);
-        tmpBus->currentCapacity = 0;
-        tmpBus->busNextPassenger = null;
+        printf("223: %s to : %s\n",fromDestination,toDestination);
 
-        bussArray[i] = *tmpBus;
+//        tmpBus = malloc(sizeof(Bus));
+//        if (tmpBus == null) {
+//            memoryMsg();
+//        }
+
+//        tmpBus->busID                       = atoi(busID);
+//        tmpBus->date                    = atoi(date);
+//        tmpBus->depTime                    = depTime;
+//        tmpBus->fromDestination             = fromDestination;
+//        tmpBus->toDestination           = toDestination;
+//        tmpBus->price                    = atof(price); // parsing double
+//        tmpBus->maxCapacity                     = atoi(capacity);
+//        tmpBus->currentCapacity             = 0;
+//        tmpBus->busNextPassenger            = null;
+
+
+        busArray[i].busID                       = atoi(busID);
+        busArray[i].date                    = atoi(date);
+
+        strcpy(busArray[i].depTime        ,            depTime);
+        strcpy(busArray[i].fromDestination,             fromDestination);
+        strcpy(busArray[i].toDestination  ,          toDestination);
+
+        busArray[i].price                    = atof(price); // parsing double
+        busArray[i].maxCapacity                     = atoi(maxCapacity);
+        busArray[i].currentCapacity             = 0;
+        busArray[i].busNextPassenger            = null;
+
+        printf("%s\n",busArray[i].fromDestination );
+
+
+//        printf("237: %d\n",tmpBus->busID);    //THIS WORKS
+//        printf("237: %s\n",tmpBus->fromDestination);
+
+//        busArray[i] = *tmpBus;
+
+
+        printf("TESTING ARRAY ID %d DEST from : %s TESTING TO: %s \n",busArray[i].busID, busArray[i].fromDestination, busArray[i].toDestination);
 
 //        free(tmpBus);
 
@@ -240,12 +269,11 @@ Bus *loadBusInfo() {
     fclose(pReadBus);
     //free busArray ??
 
-    return bussArray;
 
 }
 
 
-Passenger *loadPassInfo(Bus * busArray, int busArraySize) {
+Passenger *loadPassInfo(Bus *busArray, int busArraySize) {
 
     String passID;     //initially int
     String passDate;   //int
@@ -293,12 +321,12 @@ Passenger *loadPassInfo(Bus * busArray, int busArraySize) {
         tmpPassenger->passengerToDestination = passengerToDestination;
         tmpPassenger->passengerNextPassenger = null;
 
-        printf("TESTING BUSARRAY IN LOADPASS: %s\n",busArray[1].fromDestination);
-        indx = busIndex(busArray, busArraySize,*tmpPassenger);
+        printf("TESTING BUSARRAY IN LOADPASS: %s\n", busArray[1].fromDestination);
+        indx = busIndex(busArray, busArraySize, *tmpPassenger);
 
         //dbg: it reads
 
-        printf("indx: %d\n",indx);
+        printf("indx: %d\n", indx);
 
 
     }
@@ -331,12 +359,12 @@ int countLines(char *filename) {
 
 //returns what the bus index should the passenger be in
 
-int busIndex(Bus *busArray,int busArraySize,  Passenger passenger) {
+int busIndex(Bus *busArray, int busArraySize, Passenger passenger) {
 
-    printf("ID: %d from dest : %s\n",busArray[0].busID, (busArray[0].fromDestination));
+    printf("ID: %d from dest : %s\n", busArray[0].busID, (busArray[0].fromDestination));
 //    for (int i = 0; i < busArraySize - 1; ++i) { // -1 to not search in the -late passengers section)
 
-        //        if (strcmp( busArray[i].fromDestination, passenger.passengerFromDestination) == 0) {
+    //        if (strcmp( busArray[i].fromDestination, passenger.passengerFromDestination) == 0) {
 //            return i;
 //        }
 
