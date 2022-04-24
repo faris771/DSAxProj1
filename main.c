@@ -45,7 +45,8 @@ typedef struct Bus {
     String fromDestination;
     String toDestination;
     double price;
-    int capacity;
+    int maxCapacity;
+    int currentCapacity ;
 
     struct Passenger *busNextPassenger;
 
@@ -81,13 +82,18 @@ void memoryMsg();
 
 Bus *loadBusInfo();
 
-Passenger *loadPassInfo();
+int busIndex(Bus * busArray,int sizeOfBusArray, Passenger passenger);
+
+//plan b make the array global
+
+Passenger *loadPassInfo(Bus * busArray, int busArraySize);
 
 
 int main() {
 
     Bus *busArray = null;
 
+    int sizeOfBusArray = countLines("busses.txt") + 1;
 
     printf("WELCOME\n");
     int selection;
@@ -117,12 +123,13 @@ int main() {
             case 1:
                 //load bus
                 busArray = loadBusInfo();
-                printf("\n ID IS : %d\n", busArray[2].busID);//test
+                printf("ID IS : %s \n", busArray[3].toDestination);//test
+
                 break;
 
             case 2:
                 //load pass
-
+                loadPassInfo(busArray, sizeOfBusArray);
                 break;
 
             case 3:
@@ -191,10 +198,10 @@ Bus *loadBusInfo() {
     }
 
     char buffer[MAX_LINE];
-    int sizeOfBusArray = countLines("busses.txt") + 1;
+    int sizeOfBusArray = countLines("busses.txt") + 1;// +1 for the late students
     printf("%d\n", sizeOfBusArray);
 
-    Bus *bussArray = malloc(sizeof(Bus) * sizeOfBusArray); // +1 for the late students
+    Bus *bussArray = malloc(sizeof(Bus) * sizeOfBusArray);
 
     int i = 0;
     while (fgets(buffer, MAX_LINE, pReadBus)) {
@@ -220,12 +227,13 @@ Bus *loadBusInfo() {
         tmpBus->fromDestination = fromDestination;
         tmpBus->toDestination = toDestination;
         tmpBus->price = atof(price); // parsing double
-        tmpBus->capacity = atoi(capacity);
+        tmpBus->maxCapacity = atoi(capacity);
+        tmpBus->currentCapacity = 0;
         tmpBus->busNextPassenger = null;
 
         bussArray[i] = *tmpBus;
 
-        free(tmpBus);
+//        free(tmpBus);
 
         i++;
     }
@@ -237,7 +245,7 @@ Bus *loadBusInfo() {
 }
 
 
-Passenger *loadPassInfo() {
+Passenger *loadPassInfo(Bus * busArray, int busArraySize) {
 
     String passID;     //initially int
     String passDate;   //int
@@ -247,23 +255,22 @@ Passenger *loadPassInfo() {
 
     Passenger *tmpPassenger = null;
 
-
-//    Bus tmpBus;
-
     FILE *pReadPass = null;
     pReadPass = fopen("passengers.txt", "r");
 
     if (pReadPass == null) {
+
         printf("FILE NOT FOUND\n");
+        exit(1);
+
     }
 
     char buffer[MAX_LINE];
 //    int sizeOfBusArray = countLines("passengers.txt") + 1;
 //    Bus *bussArray = malloc(sizeof(Bus) * sizeOfBusArray); // +1 for the late students
 
+    int indx;
     while (fgets(buffer, MAX_LINE, pReadPass)) {
-
-        printf("%s", buffer);
 
         passID = strtok(buffer, "#");
         passDate = strtok(null, "#");
@@ -274,40 +281,78 @@ Passenger *loadPassInfo() {
         tmpPassenger = malloc(sizeof(Passenger));
 
         if (tmpPassenger == null) {
+
             memoryMsg();
             exit(1);
         }
 
-        tmpPassenger->passID = atoi(passID);
-
+        tmpPassenger->passID = atoi(passID); // converting string into int
         tmpPassenger->passDate = atoi(passDate);
         tmpPassenger->passengerDepTime = passengerDepTime;
         tmpPassenger->passengerFromDestination = passengerFromDestination;
         tmpPassenger->passengerToDestination = passengerToDestination;
         tmpPassenger->passengerNextPassenger = null;
 
+        printf("TESTING BUSARRAY IN LOADPASS: %s\n",busArray[1].fromDestination);
+        indx = busIndex(busArray, busArraySize,*tmpPassenger);
+
+        //dbg: it reads
+
+        printf("indx: %d\n",indx);
+
 
     }
 
+    fclose(pReadPass);
 
-    int countLines(char *filename) {
-        // count the number of lines in the file called filename
-        FILE *fp = fopen(filename, "r");
-        int ch = 0;
-        int lines = 0;
 
-        if (fp == NULL) {
-            return 0;
-        }
+}
 
-        lines++;
-        while ((ch = fgetc(fp)) != EOF) {
-            if (ch == '\n') {
-                lines++;
-            }
-        }
-        fclose(fp);
-        return lines;
+int countLines(char *filename) {
+    // count the number of lines in the file called filename
+    FILE *fp = fopen(filename, "r");
+    int ch = 0;
+    int lines = 0;
 
+    if (fp == NULL) {
+        return 0;
     }
+
+    lines++;
+    while ((ch = fgetc(fp)) != EOF) {
+        if (ch == '\n') {
+            lines++;
+        }
+    }
+    fclose(fp);
+    return lines;
+
+}
+
+//returns what the bus index should the passenger be in
+
+int busIndex(Bus *busArray,int busArraySize,  Passenger passenger) {
+
+    printf("ID: %d from dest : %s\n",busArray[0].busID, (busArray[0].fromDestination));
+//    for (int i = 0; i < busArraySize - 1; ++i) { // -1 to not search in the -late passengers section)
+
+        //        if (strcmp( busArray[i].fromDestination, passenger.passengerFromDestination) == 0) {
+//            return i;
+//        }
+
+
+//        if (busArray[i].date >= passenger.passDate
+//        && atoi(busArray[i].depTime) >= atoi(passenger.passengerDepTime)
+//        && strcmp( busArray[i].fromDestination , passenger.passengerFromDestination) == 0
+//        && strcmp(busArray[i].toDestination , passenger.passengerToDestination) == 0
+//        && busArray[i].currentCapacity < busArray[i].maxCapacity) {
+//
+//            return i;
+//        }
+
+
+    // in case none of busses is suitable
+    return (busArraySize - 1);
+
+
 }
