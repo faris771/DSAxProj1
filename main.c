@@ -9,6 +9,7 @@
 */
 //#include<bits/stdc++.h>
 #include <time.h>
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -27,9 +28,9 @@ typedef char String[MAX_STRING];
 typedef struct Passenger {
     int passID;
     long passDate;
-    char passengerDepTime[200];
-    char passengerFromDestination[200];
-    char passengerToDestination[200];
+    String passengerDepTime;
+    String passengerFromDestination;
+    String passengerToDestination;
 
     struct Passenger *passengerNextPassenger;
 
@@ -41,9 +42,9 @@ typedef struct Bus {
     int busID;
     //could be either string or int
     long date;
-    char depTime[200];
-    char fromDestination[200];
-    char toDestination[200];
+    String depTime;
+    String fromDestination;
+    String toDestination;
     double price;
     int maxCapacity;
     int currentCapacity;
@@ -76,7 +77,7 @@ typedef struct Bus {
 //int sizeOfList(node *head);
 
 
-int countLines(char *filename);
+int countLines(char *filename);         //CHECK THIS IF U GET AN ERROR
 
 void memoryMsg();
 
@@ -86,25 +87,31 @@ void loadPassInfo(Bus *busArray, int busArraySize);
 
 int busIndex(Bus *busArray, int sizeOfBusArray, Passenger passenger);
 
+void printAllInfo(Bus * busArray, int busArraySize);
+
 //plan b make the array global
 
 
 int main() {
 
+    //initializing the bus array
 
     int sizeOfBusArray = countLines("busses.txt") + 1;
     Bus busArray[sizeOfBusArray];
+
     printf("WELCOME\n");
     int selection;
+
+    // MENU
 
     while (true) {
 
 
+        //I MADE POINT 2 AND 3 IN ONE OPTION, LOAD AND ASSIGN, 3 FOR PRINTING ONLY              $((ASK!!!))
         printf("PLEASE SELECT AN OPTION:\n"
                "1. Load the bus information file\n"
-               "2. Load the passenger information file\n"
-               "3. Assign passengers and print assignment information of all\n"
-               "busses\n"
+               "2. Load the passenger information file and assign each passenger to his appropriate bus \n"
+               "3. print assignment information of all busses\n"
                "4. Print a specific bus information along with its passengers\n"
                "information (names and IDs)\n"
                "5. Print unmatched passengers\n"
@@ -138,7 +145,8 @@ int main() {
                 break;
 
             case 3:
-                //assign
+                //print
+                printAllInfo(busArray, sizeOfBusArray);
                 break;
 
             case 4:
@@ -313,6 +321,8 @@ void loadPassInfo(Bus *busArray, int busArraySize) {
             exit(1);
         }
 
+        // assigning
+
         tmpPassenger->passID = atoi(passID); // converting string into int
         tmpPassenger->passDate = atol(passDate);
         strcpy(tmpPassenger->passengerDepTime , passengerDepTime);
@@ -322,11 +332,16 @@ void loadPassInfo(Bus *busArray, int busArraySize) {
 
 //        printf("TESTING BUSARRAY IN LOADPASS: %s\n", busArray[2].fromDestination); PASS
 
+        //  for checking the proper bus for each passenger
         indx = busIndex(busArray, busArraySize, *tmpPassenger);
-
         //CHECK POINT
-        busArray[indx].currentCapacity++;
-        busArray[indx].busNextPassenger  = tmpPassenger;
+
+        busArray[indx].currentCapacity++;  // incrementing the bus current number of passengers
+
+        tmpPassenger->passengerNextPassenger = busArray[indx].busNextPassenger;
+        busArray[indx].busNextPassenger = tmpPassenger;
+
+
 
         printf("indx: %d\n", indx);
 
@@ -365,8 +380,8 @@ int busIndex(Bus *busArray, int busArraySize, Passenger passenger) {
 
 //    printf("%d:::%s\n", busArray[1].busID, busArray[1].fromDestination); PASS
 //    printf("$$passenger %s\n",passenger.passengerToDestination);PASS
-    int i;
-    for ( i = 0; i < busArraySize - 1; i++) { // -1 to not search in the -late passengers section-)
+
+    for ( int i = 0; i < busArraySize - 1; i++) { // -1 to not search in the -late passengers section-)
 
 //        printf("!!!bus indx fun TEST: ID: %d from dest : %s\n", busArray[i].busID, (busArray[i].fromDestination));PASS
 
@@ -378,7 +393,7 @@ int busIndex(Bus *busArray, int busArraySize, Passenger passenger) {
         tmpBusTime[2] = '0';
         String tmpPassTime;
         strcpy(tmpPassTime, passenger.passengerDepTime);
-        tmpPassTime[2] = '0';   // converting : to 0 for comparison reasons
+        tmpPassTime[2] = '0';   // converting : to '0' for comparison reasons
 
 //        printf("%d\n", atoi(tmpBusTime));     PASS
 //        printf("%d\n",busArray[i].maxCapacity); PASS
@@ -391,7 +406,7 @@ int busIndex(Bus *busArray, int busArraySize, Passenger passenger) {
                 break;
             }
         }
-        //inorder to remove \n from the string
+        //inorder to remove '\n' from the string
 
         if (busArray[i].date == passenger.passDate
             && atoi(tmpBusTime) >= atoi(tmpPassTime)
@@ -406,5 +421,175 @@ int busIndex(Bus *busArray, int busArraySize, Passenger passenger) {
         // in case none of busses is suitable
 
     }
-    return (busArraySize - 1);
+    return (busArraySize - 1);//last index
 }
+
+
+void printAllInfo(Bus * busArray, int busArraySize) {
+
+    //visiting all busses
+
+    // last block is for the late ppl so '-1'
+
+    for (int i = 0; i < busArraySize - 1 ; ++i) {
+
+
+        printf("passengers info in BUS %d date: %ld departure time: %s from %s to %s ticket price %f capacity %d\n",
+               busArray[i].busID
+               ,busArray[i].date
+               ,busArray[i].depTime
+               ,busArray[i].fromDestination
+               ,busArray[i].toDestination
+               ,busArray[i].price
+               ,busArray[i].maxCapacity
+               );
+
+        if (busArray[i].busNextPassenger == null ) {
+
+            printf("EMPTY BUS \n");
+            continue;
+        }
+
+        for (Passenger *iter = busArray[i].busNextPassenger; iter != NULL; iter = iter -> passengerNextPassenger ) {
+            printf("Passenger: ID: %d date: %ld  time: %s from: %s to: %s\n"
+                   ,iter ->passID
+                   ,iter ->passDate
+                   ,iter ->passengerDepTime
+                   ,iter ->passengerFromDestination
+                   ,iter ->passengerToDestination
+                   );
+
+        }
+
+    }
+
+
+
+    printf("PASSENGERS WITH NO BUSSES: \n");
+    for (Passenger *iter = busArray[busArraySize - 1].busNextPassenger; iter != NULL; iter = iter -> passengerNextPassenger ) {
+        printf("Passenger: ID: %d date: %ld date:%s time: %s from: %s to: %s\n"
+                ,iter ->passID
+                ,iter ->passDate
+                ,iter ->passengerDepTime
+                ,iter ->passengerFromDestination
+                ,iter ->passengerToDestination
+        );
+
+    }
+
+    //    if (isEmpty(head)) {
+//        //printf("empty bus\n");
+//        return;
+//    }
+//    for (node *iter = head->next; iter != NULL; iter = iter->next) {
+//        printf("%d ", iter->num);
+//
+//    }
+//    printf("\n");
+}
+
+//info of bus without the passengerts
+
+
+
+//
+//bool isEmpty(Passenger *pass) {
+//    if (pass->passengerNextPassenger == null) {
+//
+//        return true;
+//
+//    }
+//    else {
+//        return false;
+//    }
+
+
+
+
+
+
+
+//LINKED LIST FUNCTIONS
+
+//
+//
+//int sizeOfList(node *head) {
+//
+//    int cnt = 0;
+//    for (node *iter = head->next; iter != NULL; iter = iter->next) {
+//        cnt++;
+//    }
+//
+//
+//    return cnt;
+//
+//}
+//
+//void deleteList(node *head) {
+//    node *tmp = null;
+//    for (node *iter = head->next; iter != NULL;) {
+//
+//        tmp = iter;
+//        iter = iter->next;
+//        tmp->next = null;
+//        free(tmp);
+//
+//    }
+//
+//    head->next = null;
+//
+
+//    node *tmp = null;
+//    node *iter = head->next;
+//
+//    head->next = null;
+//
+//    for (; iter != NULL; iter = iter->next) {
+//
+//        tmp = iter->next;
+//        free(iter);
+//
+//        iter = tmp;
+//
+//
+//    }
+
+    // u can free head here
+
+
+
+//
+
+
+//
+//void insertAtBeginning(int x, node *head) {
+//    node *tmp = malloc(sizeof(node));
+//    tmp->num = x;
+//    tmp->next = head->next;
+//
+//    head->next = tmp;
+//
+//    free(tmp);
+//
+//}
+
+//void deleteNode(int x, node *head) {
+//
+////    for (node *i = head;i!= null && i;  < ; ++) {
+////
+////    }
+//    node *tmp = null;
+//
+//    node *prev = findPrev(x, head);
+//    if (!isLast(prev, head)) {
+//        tmp = prev->next;
+//        prev->next = tmp->next;
+//        free(tmp);
+//
+//
+//    }
+//
+//
+//}
+
+//
