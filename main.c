@@ -47,7 +47,7 @@ typedef struct Bus {
     String toDestination;
     double price;
     int maxCapacity;
-    int currentCapacity;
+    int numberOfPassengers;
 
     struct Passenger *busNextPassenger;
 
@@ -89,6 +89,9 @@ int busIndex(Bus *busArray, int sizeOfBusArray, Passenger passenger);
 
 void printAllInfo(Bus * busArray, int busArraySize);
 
+void addNewPassenger(Bus * busArray, int busArraySize);
+void deletePassenger(Bus* busArray, int busArraySize);
+
 //plan b make the array global
 
 
@@ -123,7 +126,7 @@ int main() {
 
         scanf("%d", &selection);
 
-
+        //Q&A: CHANGE SELECTION TO CHAR
         switch (selection) {
 
             case 1:
@@ -158,11 +161,12 @@ int main() {
                 break;
 
             case 6:
-                //add pass
+
+                addNewPassenger(busArray,sizeOfBusArray);
 
                 break;
             case 7:
-                //del pass
+                deletePassenger(busArray, sizeOfBusArray);
                 break;
             case 8:
                 //del bus
@@ -216,7 +220,7 @@ void loadBusInfo(Bus *busArray) {
 
 
     int i = 0;
-    while (fgets(buffer, MAX_LINE, pReadBus)) {
+    while (fgets(buffer, MAX_LINE, pReadBus)) {  // for busses in the file ( NOT INCLUDING THE LATE PEOPLE LIST)
 
         printf("%s", buffer);
 
@@ -245,7 +249,7 @@ void loadBusInfo(Bus *busArray) {
 //        tmpBus->toDestination           = toDestination;
 //        tmpBus->price                    = atof(price); // parsing double
 //        tmpBus->maxCapacity                     = atoi(capacity);
-//        tmpBus->currentCapacity             = 0;
+//        tmpBus->numberOfPassengers             = 0;
 //        tmpBus->busNextPassenger            = null;
 
 
@@ -258,7 +262,7 @@ void loadBusInfo(Bus *busArray) {
 
         busArray[i].price = atof(price); // parsing double
         busArray[i].maxCapacity = atoi(maxCapacity);
-        busArray[i].currentCapacity = 0;
+        busArray[i].numberOfPassengers = 0;
         busArray[i].busNextPassenger = null;
 
 //        printf("255: %d%s\n",busArray[i].busID, busArray[i].fromDestination);PASS
@@ -273,6 +277,10 @@ void loadBusInfo(Bus *busArray) {
 
         i++;
     }
+
+    //to make the LATE PEOPLE list
+    busArray[i].busNextPassenger = null;
+
     fclose(pReadBus);
     //free busArray ??
 
@@ -334,11 +342,10 @@ void loadPassInfo(Bus *busArray, int busArraySize) {
 
         //  for checking the proper bus for each passenger
         indx = busIndex(busArray, busArraySize, *tmpPassenger);
-        //CHECK POINT
 
-        busArray[indx].currentCapacity++;  // incrementing the bus current number of passengers
+        busArray[indx].numberOfPassengers++;  // incrementing the bus current number of passengers
 
-        tmpPassenger->passengerNextPassenger = busArray[indx].busNextPassenger;
+        tmpPassenger->passengerNextPassenger = busArray[indx].busNextPassenger; //
         busArray[indx].busNextPassenger = tmpPassenger;
 
 
@@ -412,7 +419,7 @@ int busIndex(Bus *busArray, int busArraySize, Passenger passenger) {
             && atoi(tmpBusTime) >= atoi(tmpPassTime)
             && strcasecmp(busArray[i].fromDestination, passenger.passengerFromDestination) == 0
             && strcasecmp(busArray[i].toDestination, flushed) == 0
-            && busArray[i].currentCapacity < busArray[i].maxCapacity
+            && busArray[i].numberOfPassengers < busArray[i].maxCapacity
             ) {
 
             return i;
@@ -431,43 +438,33 @@ void printAllInfo(Bus * busArray, int busArraySize) {
 
     // last block is for the late ppl so '-1'
 
-    for (int i = 0; i < busArraySize - 1 ; ++i) {
+    for (int i = 0; i < busArraySize - 1; ++i) {
 
 
-        printf("passengers info in BUS %d date: %ld departure time: %s from %s to %s ticket price %f capacity %d\n",
-               busArray[i].busID
-               ,busArray[i].date
-               ,busArray[i].depTime
-               ,busArray[i].fromDestination
-               ,busArray[i].toDestination
-               ,busArray[i].price
-               ,busArray[i].maxCapacity
-               );
+        printf("BUS %d date: %ld departure time: %s from %s to %s ticket price %.2f capacity %d\n",
+               busArray[i].busID, busArray[i].date, busArray[i].depTime, busArray[i].fromDestination,
+               busArray[i].toDestination, busArray[i].price, busArray[i].maxCapacity
+        );
 
-        if (busArray[i].busNextPassenger == null ) {
+        if (busArray[i].busNextPassenger == null) {
 
             printf("EMPTY BUS \n");
             continue;
         }
 
-        for (Passenger *iter = busArray[i].busNextPassenger; iter != NULL; iter = iter -> passengerNextPassenger ) {
-            printf("Passenger: ID: %d date: %ld  time: %s from: %s to: %s\n"
-                   ,iter ->passID
-                   ,iter ->passDate
-                   ,iter ->passengerDepTime
-                   ,iter ->passengerFromDestination
-                   ,iter ->passengerToDestination
-                   );
+        // each passenger in each bus
+        for (Passenger *iter = busArray[i].busNextPassenger; iter != NULL; iter = iter->passengerNextPassenger) {
+            printf("Passenger: ID: %d date: %ld  time: %s from: %s to: %s\n", iter->passID, iter->passDate,
+                   iter->passengerDepTime, iter->passengerFromDestination, iter->passengerToDestination
+            );
 
         }
 
     }
 
-
-
     printf("PASSENGERS WITH NO BUSSES: \n");
     for (Passenger *iter = busArray[busArraySize - 1].busNextPassenger; iter != NULL; iter = iter -> passengerNextPassenger ) {
-        printf("Passenger: ID: %d date: %ld date:%s time: %s from: %s to: %s\n"
+        printf("Passenger: ID: %d date: %ld time: %s from: %s to: %s\n"
                 ,iter ->passID
                 ,iter ->passDate
                 ,iter ->passengerDepTime
@@ -476,8 +473,97 @@ void printAllInfo(Bus * busArray, int busArraySize) {
         );
 
     }
+//    printf("reachable ?? \n"); ??    NO
 
-    //    if (isEmpty(head)) {
+
+}
+
+void addNewPassenger(Bus *busArray, int busArraySize) {
+    printf("INPUT NEW PASSENGER'S:"
+           "ID, DEPARTURE DATE, TIME, AND FROM -TO- DESTINATION, RESPECTIVELY  "
+           "\n");
+    int passID;
+    long passDate;
+    String passengerDepTime;
+    String passengerFromDestination;
+    String passengerToDestination;
+    //pointer
+
+    Passenger *tmpPassenger = null;
+    tmpPassenger = malloc(sizeof(Passenger));
+    if (tmpPassenger == null) {
+
+        memoryMsg();
+        exit(1);
+    }
+
+    // string do not need '&'
+
+    scanf("%d%ld%s%s%s",&passID,&passDate,passengerDepTime,passengerFromDestination,passengerToDestination);
+
+    tmpPassenger->passID = (passID); // converting string into int
+    tmpPassenger->passDate = (passDate);
+    strcpy(tmpPassenger->passengerDepTime , passengerDepTime);
+    strcpy(tmpPassenger->passengerFromDestination , passengerFromDestination);
+    strcpy(tmpPassenger->passengerToDestination , passengerToDestination);
+    tmpPassenger->passengerNextPassenger = null;
+
+    int indx = busIndex(busArray, busArraySize, *tmpPassenger);
+
+    busArray[indx].numberOfPassengers++;  // incrementing the bus current number of passengers
+    tmpPassenger->passengerNextPassenger = busArray[indx].busNextPassenger; //
+    busArray[indx].busNextPassenger = tmpPassenger;
+
+
+
+}
+
+void deletePassenger(Bus *busArray, int busArraySize) {
+
+    printf("PLEASE INPUT PASSENGER ID YOU WANT TO DELETE \n");
+
+    int passID;
+    scanf("%d", &passID);
+
+    for (int i = 0; i < busArraySize ; ++i) {
+
+
+        // each passenger in each bus
+        for (Passenger *iter = busArray[i].busNextPassenger; iter != null  ; iter = iter->passengerNextPassenger) {
+
+            // in case the first pass was the one
+
+            if (iter->passID == passID) {
+                Passenger *tmpPass = null;
+                tmpPass = iter;
+                busArray[i].busNextPassenger = tmpPass->passengerNextPassenger;
+                free(tmpPass);
+                return;
+            }
+
+
+            if (iter->passengerNextPassenger->passID == passID){
+                //like findPrevious
+                Passenger *tmpPass = null;
+                tmpPass = iter->passengerNextPassenger;
+                iter->passengerNextPassenger = tmpPass->passengerNextPassenger;
+                free(tmpPass);
+                return;
+
+            }
+
+        }
+
+    }
+
+    printf("PASSENGER DOESN'T EXIST ! \n");
+
+
+}
+
+
+
+//    if (isEmpty(head)) {
 //        //printf("empty bus\n");
 //        return;
 //    }
@@ -486,7 +572,7 @@ void printAllInfo(Bus * busArray, int busArraySize) {
 //
 //    }
 //    printf("\n");
-}
+
 
 //info of bus without the passengerts
 
