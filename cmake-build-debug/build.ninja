@@ -61,6 +61,12 @@ build CMakeFiles/DSAxProj1.dir/P1_1200546_FarisAbufarha_3.c.o: C_COMPILER__DSAxP
   OBJECT_DIR = CMakeFiles/DSAxProj1.dir
   OBJECT_FILE_DIR = CMakeFiles/DSAxProj1.dir
 
+build CMakeFiles/DSAxProj1.dir/tmp.c.o: C_COMPILER__DSAxProj1_Debug /home/hp/CLionProjects/DSAxProj1/tmp.c || cmake_object_order_depends_target_DSAxProj1
+  DEP_FILE = CMakeFiles/DSAxProj1.dir/tmp.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/DSAxProj1.dir
+  OBJECT_FILE_DIR = CMakeFiles/DSAxProj1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DSAxProj1
@@ -69,7 +75,7 @@ build CMakeFiles/DSAxProj1.dir/P1_1200546_FarisAbufarha_3.c.o: C_COMPILER__DSAxP
 #############################################
 # Link the executable DSAxProj1
 
-build DSAxProj1: C_EXECUTABLE_LINKER__DSAxProj1_Debug CMakeFiles/DSAxProj1.dir/main.c.o CMakeFiles/DSAxProj1.dir/P1_1200546_FarisAbufarha_3.c.o
+build DSAxProj1: C_EXECUTABLE_LINKER__DSAxProj1_Debug CMakeFiles/DSAxProj1.dir/main.c.o CMakeFiles/DSAxProj1.dir/P1_1200546_FarisAbufarha_3.c.o CMakeFiles/DSAxProj1.dir/tmp.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/DSAxProj1.dir
   POST_BUILD = :
