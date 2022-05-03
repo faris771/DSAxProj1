@@ -417,7 +417,7 @@ void printAllInfo(Bus *busArray, int busArraySize) {
     for (int i = 0; i < busArraySize - 1; ++i) {
 
         if (busArray[i].busID == -1 ){
-            printf("PASSED\n");
+//            printf("PASSED\n");
             continue;
         }
 
@@ -447,14 +447,19 @@ void printAllInfo(Bus *busArray, int busArraySize) {
 
 //still, spaced string not fixed
 void addNewPassenger(Bus *busArray, int busArraySize) {
+//    printf("INPUT NEW PASSENGER'S:"
+//           "ID, DEPARTURE DATE, TIME, AND FROM -TO- DESTINATION, RESPECTIVELY  "
+//           "\n");
+//
     printf("INPUT NEW PASSENGER'S:"
-           "ID, DEPARTURE DATE, TIME, AND FROM -TO- DESTINATION, RESPECTIVELY  "
+           "ID, DATE, TIME RESPECTIVELY  "
            "\n");
+
     int passID;
     long passDate;
     String passengerDepTime;
-    String passengerFromDestination;
-    String passengerToDestination;
+    String passengerFromDestination = "";
+    String passengerToDestination = "";
     //pointer
 
     Passenger *tmpPassenger = null;
@@ -467,8 +472,18 @@ void addNewPassenger(Bus *busArray, int busArraySize) {
 
     // string do not need '&'
 
-    scanf("%d%ld%s%s%s", &passID, &passDate, passengerDepTime, passengerFromDestination, passengerToDestination);
+//    scanf("%d%ld%s%s%s", &passID, &passDate, passengerDepTime, passengerFromDestination, passengerToDestination);
+    scanf("%d%ld%s", &passID, &passDate, passengerDepTime);
+    fgetc(stdin); // getting rid of \n
 
+    printf("INPUT FROM  DESTINATION,\n");
+    fgets(passengerFromDestination,MAX_STRING,stdin);
+    passengerFromDestination[strlen(passengerFromDestination) - 1] = '\0';// getting rid of \n
+
+    printf("INPUT TO DESTINATION \n");
+    fgets(passengerToDestination,MAX_STRING,stdin);
+    passengerToDestination[strlen(passengerToDestination) -1] = '\0';// getting rid of \n
+    printf("%s\n",passengerFromDestination);
     tmpPassenger->passID = (passID); // converting string into int
     tmpPassenger->passDate = (passDate);
     strcpy(tmpPassenger->passengerDepTime, passengerDepTime);
@@ -481,6 +496,45 @@ void addNewPassenger(Bus *busArray, int busArraySize) {
     busArray[indx].numberOfPassengers++;  // incrementing the bus current number of passengers
     tmpPassenger->passengerNextPassenger = busArray[indx].busNextPassenger; //
     busArray[indx].busNextPassenger = tmpPassenger;
+
+
+
+
+
+
+
+
+
+//    int words;
+//    printf("INPUT NO of words in from destination e.g: 2 words in Beit Rema \n");
+//    scanf("%d", &words);
+//    String strTmp;
+//    for (int i = 0; i < words; ++i) {
+//        printf("input word %d\n",i+1);
+//        scanf("%s", &strTmp);
+//        strcat(passengerFromDestination, strTmp);
+//    }
+//    printf("INPUT NO of words in from destination \n");
+//    scanf("%d", &words);
+//    for (int i = 0; i < words; ++i) {
+//        printf("input word %d\n",i+1);
+//        scanf("%s", &strTmp);
+//        strcat(passengerFromDestination, strTmp);
+//    }
+
+//
+//    tmpPassenger->passID = (passID); // converting string into int
+//    tmpPassenger->passDate = (passDate);
+//    strcpy(tmpPassenger->passengerDepTime, passengerDepTime);
+//    strcpy(tmpPassenger->passengerFromDestination, passengerFromDestination);
+//    strcpy(tmpPassenger->passengerToDestination, passengerToDestination);
+//    tmpPassenger->passengerNextPassenger = null;
+//
+//    indx = busIndex(busArray, busArraySize, *tmpPassenger);
+//
+//    busArray[indx].numberOfPassengers++;  // incrementing the bus current number of passengers
+//    tmpPassenger->passengerNextPassenger = busArray[indx].busNextPassenger; //
+//    busArray[indx].busNextPassenger = tmpPassenger;
 
 
 }
@@ -537,30 +591,121 @@ void deletePassenger(Bus *busArray, int busArraySize) {
 }
 
 void deleteBus(Bus *busArray, int busArraySize) {
+
+    int bdx;    // bus indx
+
+
     printf("INPUT BUS ID YOU WANT TO DELETE \n");
 
     int ID;
     scanf("%d", &ID);
 
+    bool flag = false;
 
-    int indx; //bus indx for re-assigning
+    int indx;// indx of bus u want to delete
+
+    for (int i = 0; i < busArraySize - 1; ++i) {
+        if (busArray[i].busID == ID) {
+
+            flag = true;
+            indx = i;
+            break;
+
+        }
+
+    }
+    if (!flag) {
+
+        printf("BUS DOESN'T EXIST \n");
+        return;
+    }
+
+    Passenger *tmpPass = null;
+    Passenger *nextPass = null;
+    tmpPass = busArray[indx].busNextPassenger;
+
+    //shifting
+    for (int i = indx; i < busArraySize - 1; ++i) {
+        busArray[i] = busArray[i + 1];
+    }
+
+
+    for (Passenger *iter = tmpPass; iter != NULL;) {
+
+        nextPass = iter;
+        iter = iter->passengerNextPassenger;
+        nextPass->passengerNextPassenger = null; // assign this
+
+        for (int i = 0; i < busArraySize - 1; ++i) {
+
+            String tmpBusTime;
+            strcpy(tmpBusTime, busArray[i].depTime);
+            tmpBusTime[2] = '0';
+            String tmpPassTime;
+            strcpy(tmpPassTime, nextPass->passengerDepTime);
+            tmpPassTime[2] = '0';   // converting : to '0' for comparison reasons
+
+
+            String flushed;
+            strcpy(flushed, nextPass->passengerToDestination);
+//                    flushed[strlen(flushed) -1] = '\0'; ALREADY FLUSHED
+            for (int z = 0; z < sizeof(flushed); ++z) {
+                if (flushed[z] == '\n') {
+                    flushed[z] = '\0';
+                    break;
+                }
+            }
+            //inorder to remove '\n' from the string
+
+
+            if (busArray[i].date == nextPass->passDate
+                && atoi(tmpBusTime) >= atoi(tmpPassTime)
+                && strcasecmp(busArray[i].fromDestination, nextPass->passengerFromDestination) == 0
+                && strcasecmp(busArray[i].toDestination, flushed) == 0
+                && busArray[i].numberOfPassengers < busArray[i].maxCapacity
+                && i != indx) {
+
+                bdx = i;
+                goto f1;
+
+            }
+
+
+        }
+
+        bdx = busArraySize - 1; // in case no bus is suitable
+
+        f1:;
+
+        nextPass->passengerNextPassenger = busArray[bdx].busNextPassenger;
+        busArray[bdx].busNextPassenger = nextPass;
+
+
+    }
+    printf("DELETED \n");
+
+
+
+    /*
     for (int i = 0; i < busArraySize - 1; ++i) {
 
         if (busArray[i].busID == ID) {
 
 
             //frees all passengers in the bus
-            Passenger *iter = busArray[i].busNextPassenger;
-            for (; iter != NULL;) {
+            for (Passenger *iter = busArray[i].busNextPassenger; iter != NULL; iter = busArray[i].busNextPassenger) {
 
-                iter = busArray[i].busNextPassenger;
                 busArray[i].busNextPassenger = iter->passengerNextPassenger;
-
                 //indx = busIndex(busArray, busArraySize, *tmpPassenger);
 
+                if (iter->passengerNextPassenger == null){
+
+                    goto out2;
+
+                }
 
                 //reassigning all passengers in deleted bus
-                for (int j = 0; i < busArraySize - 1; j++) { // -1 to not search in the -late passengers section-)
+                for (int j = 0; j < busArraySize - 1; j++) { // -1 to not search in the -late passengers section-)
 
                     String tmpBusTime;
                     strcpy(tmpBusTime, busArray[j].depTime);
@@ -572,15 +717,13 @@ void deleteBus(Bus *busArray, int busArraySize) {
 
                     String flushed;
                     strcpy(flushed, iter->passengerToDestination);
-                    flushed[strlen(flushed) -1] = '\0';
-
-//                    for (int k = 0; j < sizeof(flushed); ++k) {
-//                        if (flushed[k] == '\n') {
-//                            flushed[k] = '\0';
-//                            break;
-//                        }
-//                    }
-
+//                    flushed[strlen(flushed) -1] = '\0'; ALREADY FLUSHED
+                    for (int z = 0; z < sizeof(flushed); ++z) {
+                        if (flushed[z] == '\n') {
+                            flushed[z] = '\0';
+                            break;
+                        }
+                    }
                     //inorder to remove '\n' from the string
 
 
@@ -592,9 +735,11 @@ void deleteBus(Bus *busArray, int busArraySize) {
                         && busArray[j].numberOfPassengers < busArray[j].maxCapacity
                         && j != i    ) {
 
-                        busArray[j].busID = -1;
+                        printf("\n");
+//                        busArray[j].busID = -1;
                         indx =  j;
                         goto  cp;
+
                         break;//breaks the reassigning loop
                     }
                     // in case none of busses is suitable
@@ -603,6 +748,8 @@ void deleteBus(Bus *busArray, int busArraySize) {
                 indx = (busArraySize - 1);//last index
 
                 cp:;
+
+                printf("%d\n",iter->passID);
 
                 busArray[indx].numberOfPassengers++;  // incrementing the bus current number of passengers
                 iter->passengerNextPassenger = busArray[indx].busNextPassenger; //
@@ -615,23 +762,13 @@ void deleteBus(Bus *busArray, int busArraySize) {
 
             }
 
-//            //HOW TO DELETE FROM ARRAY !?
-//            free(busArray[i].busID);
-//            free(busArray[i].date);
-//            free(busArray[i].depTime);
-//            free(busArray[i].fromDestination);
-//            free(busArray[i].toDestination);
-//            busArray[i].price = 0; // can't be  freed
-//            free(busArray[i].maxCapacity);
-//            free(busArray[i].numberOfPassengers);
-
-
             // or just keep it
             for (int j = i; j < busArraySize -1; ++j) {
                 busArray[j] = busArray[j + 1];
             }
-
+            printf("BUS DELETED\n");
             goto out;
+
         }
 
 
@@ -641,6 +778,8 @@ void deleteBus(Bus *busArray, int busArraySize) {
 
     out:;
 
+    out2:;
+     */
 }
 
 
