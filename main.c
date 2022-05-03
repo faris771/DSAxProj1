@@ -147,28 +147,52 @@ int main() {
                 break;
 
             case 3:
+                if (!isLoadedBus) {
+                    printf("BUSSES INFO NOT LOADED YET\nPRESS '1' TO LOAD IT\n");
+                    break;
+                }
                 //prints all busses info ( not including unmatched passengers )
                 printAllInfo(busArray, sizeOfBusArray);
                 break;
 
             case 4:
+                if (!isLoadedBus) {
+                    printf("BUSSES INFO NOT LOADED YET\nPRESS '1' TO LOAD IT\n");
+                    break;
+                }
                 printBus(busArray, sizeOfBusArray);
 
                 break;
 
             case 5:
+                if (!isLoadedBus) {
+                    printf("BUSSES INFO NOT LOADED YET\nPRESS '1' TO LOAD IT\n");
+                    break;
+                }
                 printUnmatched(busArray, sizeOfBusArray);
                 break;
 
             case 6:
+                if (!isLoadedBus) {
+                    printf("BUSSES INFO NOT LOADED YET\nPRESS '1' TO LOAD IT\n");
+                    break;
+                }
 
                 addNewPassenger(busArray, sizeOfBusArray);
 
                 break;
             case 7:
+                if (!isLoadedBus) {
+                    printf("BUSSES INFO NOT LOADED YET\nPRESS '1' TO LOAD IT\n");
+                    break;
+                }
                 deletePassenger(busArray, sizeOfBusArray);
                 break;
             case 8:
+                if (!isLoadedBus) {
+                    printf("BUSSES INFO NOT LOADED YET\nPRESS '1' TO LOAD IT\n");
+                    break;
+                }
                 deleteBus(busArray, sizeOfBusArray);
                 break;
 
@@ -391,7 +415,7 @@ int busIndex(Bus *busArray, int busArraySize, Passenger passenger) {
             && strcasecmp(busArray[i].fromDestination, passenger.passengerFromDestination) == 0
             && strcasecmp(busArray[i].toDestination, flushed) == 0
             && busArray[i].numberOfPassengers < busArray[i].maxCapacity
-                ) {
+            ) {
 
             return i;
         }
@@ -442,10 +466,7 @@ void printAllInfo(Bus *busArray, int busArraySize) {
 
 //still, spaced string not fixed
 void addNewPassenger(Bus *busArray, int busArraySize) {
-//    printf("INPUT NEW PASSENGER'S:"
-//           "ID, DEPARTURE DATE, TIME, AND FROM -TO- DESTINATION, RESPECTIVELY  "
-//           "\n");
-//
+
     printf("INPUT NEW PASSENGER'S:"
            "ID, DATE, TIME RESPECTIVELY  "
            "\n");
@@ -466,11 +487,9 @@ void addNewPassenger(Bus *busArray, int busArraySize) {
         exit(1);
     }
 
-    // string do not need '&'
-
 //    scanf("%d%ld%s%s%s", &passID, &passDate, passengerDepTime, passengerFromDestination, passengerToDestination);
-    scanf("%d%ld%s", &passID, &passDate, passengerDepTime);   // \n
-    fgetc(stdin);
+    scanf("%d%ld%s", &passID, &passDate, passengerDepTime);   //
+    fgetc(stdin);//GETS RID OF NEWLINE
     //
     Passenger *tmpPass = null;
     Passenger *nextPass = null;
@@ -494,15 +513,31 @@ void addNewPassenger(Bus *busArray, int busArraySize) {
 
     //
 
-
     printf("INPUT FROM  DESTINATION,\n");
     fgets(passengerFromDestination, MAX_STRING, stdin);
-    passengerFromDestination[strlen(passengerFromDestination) - 1] = '\0';// getting rid of \n
+
+    for (int i = 0; i < sizeof(passengerFromDestination); ++i) {
+        if (passengerFromDestination[i] == '\n'){
+            passengerFromDestination[i] = '\0';
+            break;
+        }
+    }
+//    passengerFromDestination[strlen(passengerFromDestination) - 1] = '\0';// getting rid of \n
 
     printf("INPUT TO DESTINATION \n");
     fgets(passengerToDestination, MAX_STRING, stdin);
-    passengerToDestination[strlen(passengerToDestination) - 1] = '\0';// getting rid of \n
-    printf("%s\n", passengerFromDestination);
+    for (int i = 0; i < sizeof(passengerToDestination); ++i) {
+        if (passengerToDestination[i] == '\n'){
+            passengerToDestination[i] = '\0';
+            break;
+        }
+    }
+    printf("%s",passengerToDestination);
+
+
+//    passengerToDestination[strlen(passengerToDestination) - 1] = '\0';// getting rid of \n
+
+
     tmpPassenger->passID = (passID); // converting string into int
     tmpPassenger->passDate = (passDate);
     strcpy(tmpPassenger->passengerDepTime, passengerDepTime);
@@ -516,43 +551,6 @@ void addNewPassenger(Bus *busArray, int busArraySize) {
     busArray[indx].numberOfPassengers++;  // incrementing the bus current number of passengers
     tmpPassenger->passengerNextPassenger = busArray[indx].busNextPassenger; //
     busArray[indx].busNextPassenger = tmpPassenger;
-
-
-
-
-
-
-//    int words;
-//    printf("INPUT NO of words in from destination e.g: 2 words in Beit Rema \n");
-//    scanf("%d", &words);
-//    String strTmp;
-//    for (int i = 0; i < words; ++i) {
-//        printf("input word %d\n",i+1);
-//        scanf("%s", &strTmp);
-//        strcat(passengerFromDestination, strTmp);
-//    }
-//    printf("INPUT NO of words in from destination \n");
-//    scanf("%d", &words);
-//    for (int i = 0; i < words; ++i) {
-//        printf("input word %d\n",i+1);
-//        scanf("%s", &strTmp);
-//        strcat(passengerFromDestination, strTmp);
-//    }
-
-//
-//    tmpPassenger->passID = (passID); // converting string into int
-//    tmpPassenger->passDate = (passDate);
-//    strcpy(tmpPassenger->passengerDepTime, passengerDepTime);
-//    strcpy(tmpPassenger->passengerFromDestination, passengerFromDestination);
-//    strcpy(tmpPassenger->passengerToDestination, passengerToDestination);
-//    tmpPassenger->passengerNextPassenger = null;
-//
-//    indx = busIndex(busArray, busArraySize, *tmpPassenger);
-//
-//    busArray[indx].numberOfPassengers++;  // incrementing the bus current number of passengers
-//    tmpPassenger->passengerNextPassenger = busArray[indx].busNextPassenger; //
-//    busArray[indx].busNextPassenger = tmpPassenger;
-
 
 }
 
@@ -777,10 +775,7 @@ void freeAll(Bus *busArray,  int busArraySize){
         }
 
 
-
-
     }
-
 
 
 }
