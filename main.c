@@ -73,7 +73,9 @@ void printUnmatched(Bus *busArray, int busArraySize);
 
 void printBus(Bus *busArray, int busArraySize);
 
-void freeAll(Bus *busArray,  int busArraySize);
+void freeAll(Bus *busArray, int busArraySize);
+
+void art();
 
 int main() {
 
@@ -198,7 +200,8 @@ int main() {
 
 
             case 9:
-                printf("THANK YOU, COME AGAIN :)\n");
+                printf("                    THANK YOU, COME AGAIN :)\n");
+                art();
                 freeAll(busArray, sizeOfBusArray);
                 return 0;
             default:
@@ -209,6 +212,43 @@ int main() {
 
 
     }
+
+}
+
+void art() {
+    printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡤⠤⠶⠶⠒⠒⠒⠒⠢⠤⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n"
+           "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠴⠊⢡⣠⣆⡵⠦⠤⠄⠐⠾⠴⣦⣰⣈⡑⠢⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n"
+           "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠴⠓⠂⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠓⠺⢶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n"
+           "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠴⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣤⡶⠋⠀⠀⠀⠀⠀⠀⠉⠳⢤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n"
+           "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠎⡀⠀⠂⠀⠀⠀⠀⠀⢀⣤⣶⣿⣿⣿⣿⣿⣭⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠢⣄⠀⠀⠀⠀⠀⠀⠀\n"
+           "⠀⠀⠀⠀⠀⠀⠀⠀⠔⢉⠅⡢⡨⡀⢠⡠⠀⢀⣴⣾⣿⠟⣿⠁⠸⣿⣿⣯⢻⣿⣿⣷⣦⣀⢐⠂⠀⢀⠀⠀⠀⠠⠘⢦⡀⠀⠀⠀⠀⠀\n"
+           "⠀⠀⠀⠀⠀⠀⢠⠊⠀⠃⠪⡠⡪⣜⠆⣨⣾⣿⣿⡿⠁⠀⢻⠀⠀⠹⣿⣿⡄⠙⣿⣿⣿⣿⣷⣴⣈⢆⢄⢔⡹⡢⠑⠀⠳⡄⠀⠀⠀⠀\n"
+           "⠀⠀⠀⠀⠀⢠⠃⠀⠀⠀⠀⡄⡐⠁⣼⣿⣿⢿⡟⠁⠀⠀⠘⠀⠀⠀⠈⢻⣇⠀⠈⢿⡟⣿⣿⣿⡿⡗⠋⠊⠀⠀⠀⠀⠀⠹⡄⠀⠀⠀\n"
+           "⠀⠀⠀⠀⢀⠊⠄⠀⠀⠀⠀⠀⠈⣸⣿⣿⠏⡞⠒⠒⠂⠤⠀⠀⠀⠀⠀⠀⠙⠂⠉⠈⢻⠸⣿⣿⣧⡚⠌⠴⡠⣠⢀⠀⠀⠀⢹⡀⠀⠀\n"
+           "⠀⠀⠀⠀⡎⢸⡘⡌⣦⡐⣦⠲⡰⣿⣿⡟⠀⠁⠀⣀⡀⠀⠀⠀⢀⠀⠀⠀⠀⢀⣠⣤⣀⠁⢻⣿⣿⣿⡷⡞⣱⢃⠞⠄⠠⠀⠈⡇⠀⠀\n"
+           "⠀⠀⠀⢰⢣⢰⠘⡌⣦⢀⡦⠜⠀⠀⣿⠃⠀⣰⠟⠉⠛⠦⠀⠀⢸⡆⠀⠀⠀⠟⠉⠉⠙⠆⠈⣿⡷⠅⠀⠙⡇⣾⣶⠀⡆⢠⠀⡇⠀⠀\n"
+           "⠀⠀⠀⢸⠸⡘⢠⡃⢋⢹⠀⠀⠀⠀⢻⠀⡀⡋⡀⠀⠀⠀⠀⠀⠘⠐⠀⠀⠀⠐⠒⠆⠰⠆⡦⢠⠇⠀⠀⠀⢸⡝⡋⠀⠷⡈⢀⠇⠀⠀\n"
+           "⠀⠀⠀⠘⡆⡇⡜⣃⠜⢹⠀⠀⠀⠀⠚⡾⠛⢉⣄⡤⠀⠒⠒⠈⠉⠉⠉⠉⠉⠉⠁⠐⢖⢤⡀⢸⠄⠀⠀⠀⡰⠠⡙⣌⢧⡘⡜⠀⠀⠀\n"
+           "⠀⠀⠀⠀⢣⠞⡄⡵⡀⠚⠀⠀⠀⠀⠀⢥⠀⣿⠀⠁⢀⣠⣴⣶⣾⣿⣿⣿⣷⣶⣶⣄⡀⢸⠁⡾⡑⠡⠄⠀⠥⡐⠞⡔⠕⡰⠁⠀⠀⠀\n"
+           "⠀⠀⠀⠀⠸⣌⠈⡊⠄⠀⡀⠀⠀⠀⠄⢙⠆⠘⢶⣾⣿⠿⠛⠉⠉⠉⠉⠉⠉⠙⠿⣿⡿⠁⠰⠖⠚⠊⠀⠙⣆⠈⡞⢁⠔⠀⠀⠀⠀⠀\n"
+           "⠀⠀⠀⠀⠀⠈⢦⡈⠀⠀⡱⡆⢀⠥⠠⠨⣚⡄⠀⠻⢤⡔⠒⠀⠀⠉⠉⠉⠉⠐⡢⠍⡔⠂⢭⡠⠀⠀⠀⢠⡙⡠⢭⢅⠀⠀⠀⠀⠀⠀\n"
+           "⠀⠀⠀⠀⠀⠀⠀⠈⠓⢵⡊⡩⠮⡌⣄⢭⡛⣸⡦⣄⡀⠈⠓⠒⠒⠐⠒⠒⠂⠁⠠⢐⡀⠀⠀⠀⠀⠀⠀⢜⢪⡇⠚⡄⠧⡀⠀⠀⠀⠀\n"
+           "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢉⠡⠶⠬⠭⢽⠿⢿⠝⣉⡟⠿⣶⢦⣤⣤⣤⣤⣶⣾⣿⣇⠣⠄⠤⠔⠉⠉⠑⠂⡁⠨⣀⠷⠀⢰⠀⠀⠀⠀\n"
+           "⠀⠀⠀⠀⠀⠀⠀⢀⣔⡪⣥⠀⠀⠀⠀⠀⠀⠀⠉⠙⢇⠀⠈⠺⣿⣿⢿⣿⣿⠟⡸⠚⠉⠁⠁⠀⠀⠀⢀⠠⢑⠢⢥⠅⢒⡁⠀⠀⠀⠀\n"
+           "⠀⠀⠀⠀⠀⠀⠜⠁⠀⠈⠀⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠉⠲⢄⠈⠉⢹⠻⠯⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠘⡆⠀⠀⠀\n"
+           "⠀⠀⠀⢀⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⡀⠀⡠⠕⠒⠉⠀⠀⠀⣠⠞⠔⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠀⠀⠀\n"
+           "⠀⠀⠀⢸⠀⠀⡀⡀⣠⣁⣠⣥⣶⣶⣾⣷⣶⣤⣢⣆⡥⣡⠼⠀⠀⣠⡠⠐⠀⠻⠋⣀⠀⡀⣄⣮⢬⡚⢔⢆⣀⣠⠁⢀⡈⢐⢨⠀⠀⠀\n"
+           "⠀⠀⠀⢸⢨⣠⣵⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠊⠀⠀⠀⠛⡋⡀⢀⣴⣼⣾⣾⣿⣿⣿⣿⣷⣾⣿⣷⣶⣿⣬⣧⣲⣼⠀⠀⠀\n"
+           "⠀⠀⠀⢨⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⢿⣿⣿⣿⣿⣿⣷⣴⣱⡄⣆⣦⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⠀\n"
+           "⠀⠀⢀⣾⣿⣿⣿⣿⠍⠀⢀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠛⠻⣿⠟⠛⠛⠛⢿⠛⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠙⡛⠉⣹⣿⣿⣿⣿⣿⣆⠀\n"
+           "⠀⠀⣼⣿⡿⠟⠛⠛⢣⠀⢸⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⠁⡐⠉⠉⠉⠉⠉⠛⠻⡄\n"
+           "⠀⡘⠋⠉⠀⠀⠀⠀⠀⢡⠸⠀⠃⠀⢀⣀⣀⣤⣤⣤⣤⣤⣸⣠⣤⣤⣤⣸⣀⣤⣤⣤⣤⣤⣤⣄⣀⣀⡀⡸⢰⠀⠀⠀⠀⠀⠀⠀⠀⠰\n"
+           "⢰⢁⣀⣤⣤⣤⣤⣄⠀⠀⣴⣾⣶⣿⣿⠿⠿⠿⠿⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣤⣤⡀⣀⣀⣀⣀⣀\n"
+           "⣾⣿⣿⣿⣿⣿⣿⣿⣷⣄⢻⣿⣿⠏⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\n"
+           "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣿⡿⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⡇⠀⠉⠙⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\n"
+           "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⣿⣯⣿⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\n"
+           "⠿⠛⠉⠉⠉⠀⣈⣭⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⠫⠉⠉⠒⠢⢄⠈⠙⠻\n");
+
 
 }
 
@@ -415,7 +455,7 @@ int busIndex(Bus *busArray, int busArraySize, Passenger passenger) {
             && strcasecmp(busArray[i].fromDestination, passenger.passengerFromDestination) == 0
             && strcasecmp(busArray[i].toDestination, flushed) == 0
             && busArray[i].numberOfPassengers < busArray[i].maxCapacity
-            ) {
+                ) {
 
             return i;
         }
@@ -495,14 +535,14 @@ void addNewPassenger(Bus *busArray, int busArraySize) {
     Passenger *nextPass = null;
     int indx1 = 0;
 
-    for ( indx1 = 0; indx1 < busArraySize; ++indx1) {
+    for (indx1 = 0; indx1 < busArraySize; ++indx1) {
         tmpPass = busArray[indx1].busNextPassenger;
 
         for (Passenger *iter = tmpPass; iter != NULL;) {
 
             nextPass = iter;
             iter = iter->passengerNextPassenger;
-            if (nextPass->passID == passID){
+            if (nextPass->passID == passID) {
                 printf("ID TAKEN\n");
                 return;
             }
@@ -517,7 +557,7 @@ void addNewPassenger(Bus *busArray, int busArraySize) {
     fgets(passengerFromDestination, MAX_STRING, stdin);
 
     for (int i = 0; i < sizeof(passengerFromDestination); ++i) {
-        if (passengerFromDestination[i] == '\n'){
+        if (passengerFromDestination[i] == '\n') {
             passengerFromDestination[i] = '\0';
             break;
         }
@@ -527,12 +567,12 @@ void addNewPassenger(Bus *busArray, int busArraySize) {
     printf("INPUT TO DESTINATION \n");
     fgets(passengerToDestination, MAX_STRING, stdin);
     for (int i = 0; i < sizeof(passengerToDestination); ++i) {
-        if (passengerToDestination[i] == '\n'){
+        if (passengerToDestination[i] == '\n') {
             passengerToDestination[i] = '\0';
             break;
         }
     }
-    printf("%s",passengerToDestination);
+    printf("%s", passengerToDestination);
 
 
 //    passengerToDestination[strlen(passengerToDestination) - 1] = '\0';// getting rid of \n
@@ -704,16 +744,26 @@ void deleteBus(Bus *busArray, int busArraySize) {
 
 
 void printUnmatched(Bus *busArray, int busArraySize) {
+    FILE *tmpFile = fopen("tmpFile.txt", "w");
+
 
     printf("PASSENGERS WITH NO BUSSES: \n");
+//    fprintf(tmpFile,"PASSENGERS WITH NO BUSSES: \n");
+
+
     for (Passenger *iter = busArray[busArraySize - 1].busNextPassenger;
          iter != NULL; iter = iter->passengerNextPassenger) {
         printf("Passenger: ID: %d date: %ld time: %s from: %s to: %s\n", iter->passID, iter->passDate,
                iter->passengerDepTime, iter->passengerFromDestination, iter->passengerToDestination
         );
+        fprintf(tmpFile,"Passenger: ID: %d date: %ld time: %s from: %s to: %s", iter->passID, iter->passDate,
+                iter->passengerDepTime, iter->passengerFromDestination, iter->passengerToDestination
+        );
+
 
     }
 
+    fclose(tmpFile);
 
 }
 
@@ -755,21 +805,20 @@ void printBus(Bus *busArray, int busArraySize) {
     printf("BUS DOESN'T EXIST\n");
 
 }
-void freeAll(Bus *busArray,  int busArraySize){
+
+void freeAll(Bus *busArray, int busArraySize) {
+
     Passenger *tmpPass = null;
     Passenger *nextPass = null;
-    int indx = 0;
-    tmpPass = busArray[indx].busNextPassenger;
 
-    for ( indx = 0; indx < busArraySize; ++indx) {
+    for (int indx = 0; indx < busArraySize; ++indx) {
+        tmpPass = busArray[indx].busNextPassenger;
 
         for (Passenger *iter = tmpPass; iter != NULL;) {
 
             nextPass = iter;
             iter = iter->passengerNextPassenger;
-            nextPass->passengerNextPassenger = null; // assign this
             free(nextPass);
-
 
 
         }

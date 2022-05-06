@@ -1,0 +1,1695 @@
+PASSENGERS WITH NO BUSSES: 
+Passenger: ID: 1200999 date: 4072022 time: 12:15 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200998 date: 4072022 time: 12:30 from: Jericho to: Nablus
+
+Passenger: ID: 1200997 date: 4072022 time: 10:15 from: Al-Bireh to: Nablus
+
+Passenger: ID: 1200996 date: 4072022 time: 10:30 from: Nablus to: Ramallah
+
+Passenger: ID: 1200995 date: 4072022 time: 12:15 from: Nablus to: Hebron
+
+Passenger: ID: 1200993 date: 4072022 time: 12:30 from: Al-Amari to: Birzeit
+
+Passenger: ID: 1200991 date: 4072022 time: 10:15 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200990 date: 4072022 time: 10:30 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200989 date: 4072022 time: 12:15 from: Hebron to: Nablus
+
+Passenger: ID: 1200988 date: 4072022 time: 11:30 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200987 date: 4072022 time: 11:15 from: Ramallah to: Al-Bireh
+
+Passenger: ID: 1200986 date: 4072022 time: 11:30 from: Jerusalem to: Hebron
+
+Passenger: ID: 1200985 date: 4072022 time: 12:30 from: Jerusalem to: Al-Bireh
+
+Passenger: ID: 1200984 date: 4072022 time: 12:30 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200983 date: 4072022 time: 11:30 from: Al-Amari to: Jericho
+
+Passenger: ID: 1200982 date: 4072022 time: 10:30 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200981 date: 4072022 time: 11:30 from: Jerusalem to: Nablus
+
+Passenger: ID: 1200980 date: 4072022 time: 12:15 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200979 date: 4072022 time: 12:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200977 date: 4072022 time: 10:30 from: Al-Amari to: Jericho
+
+Passenger: ID: 1200976 date: 4072022 time: 11:15 from: Hebron to: Nablus
+
+Passenger: ID: 1200975 date: 4072022 time: 12:30 from: Birzeit to: Hebron
+
+Passenger: ID: 1200974 date: 4072022 time: 11:30 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200973 date: 4072022 time: 12:15 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200972 date: 4072022 time: 11:30 from: Hebron to: Nablus
+
+Passenger: ID: 1200971 date: 4072022 time: 11:15 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200970 date: 4072022 time: 12:15 from: Nablus to: Al-Bireh
+
+Passenger: ID: 1200969 date: 4072022 time: 12:30 from: Hebron to: Al-Bireh
+
+Passenger: ID: 1200968 date: 4072022 time: 11:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200966 date: 4072022 time: 12:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200964 date: 4072022 time: 10:15 from: Jericho to: Birzeit
+
+Passenger: ID: 1200963 date: 4072022 time: 12:30 from: Al-Bireh to: Nablus
+
+Passenger: ID: 1200962 date: 4072022 time: 12:30 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200961 date: 4072022 time: 11:30 from: Ramallah to: Al-Amari
+
+Passenger: ID: 1200960 date: 4072022 time: 11:15 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200959 date: 4072022 time: 11:15 from: Jericho to: Hebron
+
+Passenger: ID: 1200958 date: 4072022 time: 12:15 from: Nablus to: Al-Bireh
+
+Passenger: ID: 1200957 date: 4072022 time: 10:15 from: Jericho to: Birzeit
+
+Passenger: ID: 1200956 date: 4072022 time: 10:15 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200955 date: 4072022 time: 12:15 from: Hebron to: Ramallah
+
+Passenger: ID: 1200954 date: 4072022 time: 10:15 from: Al-Bireh to: Nablus
+
+Passenger: ID: 1200953 date: 4072022 time: 11:30 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200952 date: 4072022 time: 10:30 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200951 date: 4072022 time: 11:15 from: Ramallah to: Al-Amari
+
+Passenger: ID: 1200950 date: 4072022 time: 12:15 from: Jericho to: Hebron
+
+Passenger: ID: 1200949 date: 4072022 time: 10:15 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200948 date: 4072022 time: 10:15 from: Ramallah to: Jericho
+
+Passenger: ID: 1200947 date: 4072022 time: 11:15 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200946 date: 4072022 time: 11:30 from: Hebron to: Nablus
+
+Passenger: ID: 1200945 date: 4072022 time: 12:15 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200944 date: 4072022 time: 12:30 from: Jericho to: Al-Bireh
+
+Passenger: ID: 1200943 date: 4072022 time: 12:15 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200942 date: 4072022 time: 11:15 from: Ramallah to: Hebron
+
+Passenger: ID: 1200941 date: 4072022 time: 12:15 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200939 date: 4072022 time: 11:30 from: Hebron to: Ramallah
+
+Passenger: ID: 1200938 date: 4072022 time: 12:30 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200937 date: 4072022 time: 12:30 from: Al-Amari to: Jericho
+
+Passenger: ID: 1200936 date: 4072022 time: 12:15 from: Al-Amari to: Nablus
+
+Passenger: ID: 1200935 date: 4072022 time: 11:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200934 date: 4072022 time: 12:30 from: Hebron to: Ramallah
+
+Passenger: ID: 1200933 date: 4072022 time: 11:15 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200932 date: 4072022 time: 12:15 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200931 date: 4072022 time: 12:15 from: Al-Bireh to: Birzeit
+
+Passenger: ID: 1200930 date: 4072022 time: 11:15 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200929 date: 4072022 time: 10:30 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200928 date: 4072022 time: 10:15 from: Ramallah to: Hebron
+
+Passenger: ID: 1200927 date: 4072022 time: 10:15 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200926 date: 4072022 time: 12:30 from: Nablus to: Birzeit
+
+Passenger: ID: 1200925 date: 4072022 time: 11:30 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200924 date: 4072022 time: 12:15 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200923 date: 4072022 time: 11:30 from: Birzeit to: Jericho
+
+Passenger: ID: 1200922 date: 4072022 time: 12:30 from: Al-Bireh to: Birzeit
+
+Passenger: ID: 1200921 date: 4072022 time: 12:15 from: Birzeit to: Jericho
+
+Passenger: ID: 1200920 date: 4072022 time: 11:15 from: Jericho to: Birzeit
+
+Passenger: ID: 1200919 date: 4072022 time: 12:30 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200917 date: 4072022 time: 12:30 from: Al-Amari to: Birzeit
+
+Passenger: ID: 1200916 date: 4072022 time: 11:30 from: Al-Amari to: Jericho
+
+Passenger: ID: 1200915 date: 4072022 time: 11:30 from: Ramallah to: Al-Bireh
+
+Passenger: ID: 1200912 date: 4072022 time: 11:15 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200911 date: 4072022 time: 12:15 from: Hebron to: Jericho
+
+Passenger: ID: 1200909 date: 4072022 time: 10:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200908 date: 4072022 time: 11:30 from: Al-Bireh to: Nablus
+
+Passenger: ID: 1200907 date: 4072022 time: 12:15 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200906 date: 4072022 time: 12:30 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200905 date: 4072022 time: 12:15 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200904 date: 4072022 time: 12:30 from: Nablus to: Birzeit
+
+Passenger: ID: 1200903 date: 4072022 time: 11:15 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200902 date: 4072022 time: 10:30 from: Birzeit to: Nablus
+
+Passenger: ID: 1200901 date: 4072022 time: 11:30 from: Ramallah to: Al-Bireh
+
+Passenger: ID: 1200900 date: 4072022 time: 12:15 from: Ramallah to: Jericho
+
+Passenger: ID: 1200899 date: 4072022 time: 11:30 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200898 date: 4072022 time: 12:15 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200896 date: 4072022 time: 12:15 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200895 date: 4072022 time: 10:15 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200894 date: 4072022 time: 11:30 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200893 date: 4072022 time: 12:30 from: Al-Amari to: Birzeit
+
+Passenger: ID: 1200892 date: 4072022 time: 12:30 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200891 date: 4072022 time: 10:15 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200890 date: 4072022 time: 10:15 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200889 date: 4072022 time: 11:15 from: Birzeit to: Nablus
+
+Passenger: ID: 1200887 date: 4072022 time: 11:30 from: Jerusalem to: Al-Bireh
+
+Passenger: ID: 1200886 date: 4072022 time: 12:15 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200885 date: 4072022 time: 10:30 from: Jerusalem to: Hebron
+
+Passenger: ID: 1200884 date: 4072022 time: 11:15 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200883 date: 4072022 time: 12:15 from: Jerusalem to: Hebron
+
+Passenger: ID: 1200881 date: 4072022 time: 11:30 from: Al-Bireh to: Nablus
+
+Passenger: ID: 1200880 date: 4072022 time: 10:30 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200879 date: 4072022 time: 11:30 from: Jericho to: Birzeit
+
+Passenger: ID: 1200878 date: 4072022 time: 12:30 from: Nablus to: Al-Bireh
+
+Passenger: ID: 1200877 date: 4072022 time: 11:30 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200876 date: 4072022 time: 10:30 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200875 date: 4072022 time: 12:30 from: Jericho to: Nablus
+
+Passenger: ID: 1200874 date: 4072022 time: 10:30 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200873 date: 4072022 time: 12:30 from: Ramallah to: Al-Bireh
+
+Passenger: ID: 1200871 date: 4072022 time: 11:30 from: Nablus to: Hebron
+
+Passenger: ID: 1200870 date: 4072022 time: 11:15 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200869 date: 4072022 time: 11:30 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200868 date: 4072022 time: 12:15 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200867 date: 4072022 time: 10:30 from: Al-Bireh to: Nablus
+
+Passenger: ID: 1200866 date: 4072022 time: 12:30 from: Jerusalem to: Nablus
+
+Passenger: ID: 1200865 date: 4072022 time: 10:15 from: Hebron to: Ramallah
+
+Passenger: ID: 1200864 date: 4072022 time: 11:30 from: Nablus to: Jericho
+
+Passenger: ID: 1200863 date: 4072022 time: 11:15 from: Hebron to: Jericho
+
+Passenger: ID: 1200862 date: 4072022 time: 12:15 from: Nablus to: Birzeit
+
+Passenger: ID: 1200861 date: 4072022 time: 11:15 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200860 date: 4072022 time: 12:15 from: Jerusalem to: Al-Bireh
+
+Passenger: ID: 1200859 date: 4072022 time: 12:30 from: Jerusalem to: Nablus
+
+Passenger: ID: 1200857 date: 4072022 time: 11:30 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200856 date: 4072022 time: 10:15 from: Hebron to: Nablus
+
+Passenger: ID: 1200855 date: 4072022 time: 12:30 from: Jericho to: Ramallah
+
+Passenger: ID: 1200854 date: 4072022 time: 12:15 from: Jerusalem to: Al-Amari
+
+Passenger: ID: 1200853 date: 4072022 time: 11:15 from: Ramallah to: Al-Amari
+
+Passenger: ID: 1200852 date: 4072022 time: 11:15 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200851 date: 4072022 time: 12:15 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200850 date: 4072022 time: 10:30 from: Jericho to: Hebron
+
+Passenger: ID: 1200849 date: 4072022 time: 10:15 from: Jericho to: Ramallah
+
+Passenger: ID: 1200848 date: 4072022 time: 11:15 from: Jerusalem to: Al-Amari
+
+Passenger: ID: 1200847 date: 4072022 time: 11:15 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200845 date: 4072022 time: 12:30 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200844 date: 4072022 time: 12:30 from: Jerusalem to: Hebron
+
+Passenger: ID: 1200842 date: 4072022 time: 12:30 from: Jericho to: Birzeit
+
+Passenger: ID: 1200841 date: 4072022 time: 12:15 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200839 date: 4072022 time: 12:30 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200838 date: 4072022 time: 11:15 from: Ramallah to: Hebron
+
+Passenger: ID: 1200837 date: 4072022 time: 12:15 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200836 date: 4072022 time: 10:30 from: Ramallah to: Hebron
+
+Passenger: ID: 1200835 date: 4072022 time: 10:15 from: Jericho to: Birzeit
+
+Passenger: ID: 1200834 date: 4072022 time: 11:15 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200833 date: 4072022 time: 12:30 from: Ramallah to: Nablus
+
+Passenger: ID: 1200832 date: 4072022 time: 10:30 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200831 date: 4072022 time: 11:30 from: Ramallah to: Al-Bireh
+
+Passenger: ID: 1200830 date: 4072022 time: 12:30 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200829 date: 4072022 time: 12:15 from: Jerusalem to: Hebron
+
+Passenger: ID: 1200828 date: 4072022 time: 12:15 from: Nablus to: Hebron
+
+Passenger: ID: 1200827 date: 4072022 time: 11:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200826 date: 4072022 time: 12:30 from: Hebron to: Ramallah
+
+Passenger: ID: 1200825 date: 4072022 time: 12:30 from: Hebron to: Nablus
+
+Passenger: ID: 1200824 date: 4072022 time: 11:30 from: Jericho to: Al-Bireh
+
+Passenger: ID: 1200823 date: 4072022 time: 12:15 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200822 date: 4072022 time: 10:15 from: Jerusalem to: Al-Amari
+
+Passenger: ID: 1200818 date: 4072022 time: 12:30 from: Nablus to: Al-Bireh
+
+Passenger: ID: 1200817 date: 4072022 time: 11:15 from: Birzeit to: Nablus
+
+Passenger: ID: 1200816 date: 4072022 time: 11:15 from: Jerusalem to: Al-Bireh
+
+Passenger: ID: 1200815 date: 4072022 time: 12:15 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200814 date: 4072022 time: 10:15 from: Nablus to: Birzeit
+
+Passenger: ID: 1200813 date: 4072022 time: 11:30 from: Birzeit to: Jericho
+
+Passenger: ID: 1200812 date: 4072022 time: 12:15 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200811 date: 4072022 time: 12:15 from: Nablus to: Ramallah
+
+Passenger: ID: 1200809 date: 4072022 time: 10:15 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200808 date: 4072022 time: 12:15 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200807 date: 4072022 time: 10:15 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200806 date: 4072022 time: 12:30 from: Birzeit to: Hebron
+
+Passenger: ID: 1200805 date: 4072022 time: 10:15 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200804 date: 4072022 time: 11:15 from: Nablus to: Jericho
+
+Passenger: ID: 1200803 date: 4072022 time: 11:30 from: Nablus to: Jericho
+
+Passenger: ID: 1200802 date: 4072022 time: 10:15 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200801 date: 4072022 time: 11:30 from: Birzeit to: Jericho
+
+Passenger: ID: 1200800 date: 4072022 time: 10:15 from: Jerusalem to: Al-Amari
+
+Passenger: ID: 1200798 date: 4072022 time: 12:30 from: Jerusalem to: Al-Bireh
+
+Passenger: ID: 1200797 date: 4072022 time: 12:15 from: Al-Amari to: Nablus
+
+Passenger: ID: 1200796 date: 4072022 time: 10:15 from: Nablus to: Birzeit
+
+Passenger: ID: 1200795 date: 4072022 time: 10:15 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200794 date: 4072022 time: 12:30 from: Ramallah to: Hebron
+
+Passenger: ID: 1200793 date: 4072022 time: 11:30 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200792 date: 4072022 time: 10:15 from: Hebron to: Ramallah
+
+Passenger: ID: 1200791 date: 4072022 time: 10:15 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200790 date: 4072022 time: 11:15 from: Birzeit to: Hebron
+
+Passenger: ID: 1200789 date: 4072022 time: 11:30 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200787 date: 4072022 time: 11:30 from: Jericho to: Hebron
+
+Passenger: ID: 1200786 date: 4072022 time: 10:30 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200785 date: 4072022 time: 12:15 from: Birzeit to: Nablus
+
+Passenger: ID: 1200783 date: 4072022 time: 10:15 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200782 date: 4072022 time: 11:15 from: Birzeit to: Jericho
+
+Passenger: ID: 1200781 date: 4072022 time: 11:30 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200780 date: 4072022 time: 11:30 from: Ramallah to: Jericho
+
+Passenger: ID: 1200779 date: 4072022 time: 12:30 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200778 date: 4072022 time: 10:15 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200777 date: 4072022 time: 10:30 from: Ramallah to: Hebron
+
+Passenger: ID: 1200776 date: 4072022 time: 12:30 from: Jerusalem to: Nablus
+
+Passenger: ID: 1200775 date: 4072022 time: 12:30 from: Ramallah to: Jericho
+
+Passenger: ID: 1200774 date: 4072022 time: 11:15 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200772 date: 4072022 time: 12:30 from: Jericho to: Hebron
+
+Passenger: ID: 1200771 date: 4072022 time: 11:15 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200769 date: 4072022 time: 11:30 from: Nablus to: Jericho
+
+Passenger: ID: 1200768 date: 4072022 time: 10:15 from: Nablus to: Ramallah
+
+Passenger: ID: 1200767 date: 4072022 time: 11:15 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200766 date: 4072022 time: 10:15 from: Ramallah to: Hebron
+
+Passenger: ID: 1200765 date: 4072022 time: 12:15 from: Birzeit to: Jericho
+
+Passenger: ID: 1200762 date: 4072022 time: 12:30 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200761 date: 4072022 time: 10:30 from: Birzeit to: Jericho
+
+Passenger: ID: 1200760 date: 4072022 time: 11:30 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200759 date: 4072022 time: 12:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200758 date: 4072022 time: 11:30 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200756 date: 4072022 time: 12:30 from: Birzeit to: Hebron
+
+Passenger: ID: 1200755 date: 4072022 time: 11:15 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200753 date: 4072022 time: 12:30 from: Al-Bireh to: Nablus
+
+Passenger: ID: 1200752 date: 4072022 time: 12:15 from: Birzeit to: Jericho
+
+Passenger: ID: 1200751 date: 4072022 time: 11:15 from: Jerusalem to: Ramallah
+
+Passenger: ID: 1200750 date: 4072022 time: 12:30 from: Birzeit to: Al-Bireh
+
+Passenger: ID: 1200748 date: 4072022 time: 11:30 from: Jerusalem to: Ramallah
+
+Passenger: ID: 1200747 date: 4072022 time: 11:30 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200746 date: 4072022 time: 11:15 from: Hebron to: Birzeit
+
+Passenger: ID: 1200745 date: 4072022 time: 10:30 from: Birzeit to: Hebron
+
+Passenger: ID: 1200743 date: 4072022 time: 12:15 from: Hebron to: Birzeit
+
+Passenger: ID: 1200742 date: 4072022 time: 11:30 from: Ramallah to: Al-Bireh
+
+Passenger: ID: 1200741 date: 4072022 time: 10:30 from: Ramallah to: Al-Amari
+
+Passenger: ID: 1200740 date: 4072022 time: 12:15 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200739 date: 4072022 time: 10:15 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200738 date: 4072022 time: 10:15 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200737 date: 4072022 time: 11:30 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200736 date: 4072022 time: 11:15 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200735 date: 4072022 time: 10:30 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200734 date: 4072022 time: 10:15 from: Ramallah to: Hebron
+
+Passenger: ID: 1200733 date: 4072022 time: 11:15 from: Ramallah to: Jericho
+
+Passenger: ID: 1200732 date: 4072022 time: 12:30 from: Ramallah to: Jericho
+
+Passenger: ID: 1200731 date: 4072022 time: 12:30 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200730 date: 4072022 time: 12:15 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200729 date: 4072022 time: 12:30 from: Hebron to: Al-Amari
+
+Passenger: ID: 1200728 date: 4072022 time: 12:15 from: Hebron to: Nablus
+
+Passenger: ID: 1200727 date: 4072022 time: 11:30 from: Hebron to: Jericho
+
+Passenger: ID: 1200725 date: 4072022 time: 12:15 from: Birzeit to: Nablus
+
+Passenger: ID: 1200724 date: 4072022 time: 10:15 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200723 date: 4072022 time: 10:15 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200722 date: 4072022 time: 10:15 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200721 date: 4072022 time: 11:30 from: Ramallah to: Al-Amari
+
+Passenger: ID: 1200720 date: 4072022 time: 11:15 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200719 date: 4072022 time: 10:15 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200718 date: 4072022 time: 10:30 from: Nablus to: Jericho
+
+Passenger: ID: 1200716 date: 4072022 time: 10:15 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200715 date: 4072022 time: 10:15 from: Al-Bireh to: Birzeit
+
+Passenger: ID: 1200714 date: 4072022 time: 12:15 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200712 date: 4072022 time: 11:30 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200711 date: 4072022 time: 12:15 from: Jericho to: Nablus
+
+Passenger: ID: 1200709 date: 4072022 time: 10:15 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200708 date: 4072022 time: 11:15 from: Jerusalem to: Ramallah
+
+Passenger: ID: 1200707 date: 4072022 time: 10:15 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200706 date: 4072022 time: 10:30 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200705 date: 4072022 time: 10:30 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200704 date: 4072022 time: 10:15 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200703 date: 4072022 time: 11:30 from: Nablus to: Jericho
+
+Passenger: ID: 1200702 date: 4072022 time: 10:15 from: Jerusalem to: Ramallah
+
+Passenger: ID: 1200701 date: 4072022 time: 12:30 from: Al-Bireh to: Nablus
+
+Passenger: ID: 1200700 date: 4072022 time: 11:15 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200699 date: 4072022 time: 12:15 from: Ramallah to: Hebron
+
+Passenger: ID: 1200697 date: 4072022 time: 12:30 from: Birzeit to: Jericho
+
+Passenger: ID: 1200696 date: 4072022 time: 11:15 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200694 date: 4072022 time: 12:30 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200693 date: 4072022 time: 11:15 from: Jericho to: Hebron
+
+Passenger: ID: 1200692 date: 4072022 time: 10:15 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200690 date: 4072022 time: 12:15 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200688 date: 4072022 time: 12:15 from: Jericho to: Birzeit
+
+Passenger: ID: 1200686 date: 4072022 time: 10:15 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200685 date: 4072022 time: 10:30 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200684 date: 4072022 time: 10:30 from: Hebron to: Birzeit
+
+Passenger: ID: 1200683 date: 4072022 time: 11:15 from: Jerusalem to: Al-Amari
+
+Passenger: ID: 1200681 date: 4072022 time: 12:30 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200680 date: 4072022 time: 10:30 from: Ramallah to: Nablus
+
+Passenger: ID: 1200679 date: 4072022 time: 11:15 from: Jerusalem to: Nablus
+
+Passenger: ID: 1200678 date: 4072022 time: 10:15 from: Nablus to: Jericho
+
+Passenger: ID: 1200677 date: 4072022 time: 10:15 from: Nablus to: Birzeit
+
+Passenger: ID: 1200676 date: 4072022 time: 12:15 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200675 date: 4072022 time: 11:15 from: Jericho to: Al-Bireh
+
+Passenger: ID: 1200674 date: 4072022 time: 12:15 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200673 date: 4072022 time: 12:30 from: Nablus to: Al-Bireh
+
+Passenger: ID: 1200672 date: 4072022 time: 10:30 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200670 date: 4072022 time: 12:30 from: Jericho to: Birzeit
+
+Passenger: ID: 1200669 date: 4072022 time: 12:15 from: Nablus to: Al-Bireh
+
+Passenger: ID: 1200668 date: 4072022 time: 11:30 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200667 date: 4072022 time: 10:15 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200666 date: 4072022 time: 10:15 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200665 date: 4072022 time: 10:15 from: Jericho to: Birzeit
+
+Passenger: ID: 1200664 date: 4072022 time: 11:15 from: Jericho to: Hebron
+
+Passenger: ID: 1200663 date: 4072022 time: 10:15 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200661 date: 4072022 time: 11:30 from: Hebron to: Jericho
+
+Passenger: ID: 1200660 date: 4072022 time: 12:30 from: Jericho to: Nablus
+
+Passenger: ID: 1200659 date: 4072022 time: 12:15 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200658 date: 4072022 time: 10:30 from: Hebron to: Jericho
+
+Passenger: ID: 1200657 date: 4072022 time: 11:30 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200656 date: 4072022 time: 11:30 from: Nablus to: Ramallah
+
+Passenger: ID: 1200655 date: 4072022 time: 10:30 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200654 date: 4072022 time: 10:15 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200653 date: 4072022 time: 12:30 from: Nablus to: Jericho
+
+Passenger: ID: 1200652 date: 4072022 time: 11:30 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200651 date: 4072022 time: 11:15 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200650 date: 4072022 time: 12:15 from: Nablus to: Ramallah
+
+Passenger: ID: 1200649 date: 4072022 time: 12:30 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200647 date: 4072022 time: 10:30 from: Birzeit to: Jericho
+
+Passenger: ID: 1200646 date: 4072022 time: 12:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200645 date: 4072022 time: 10:15 from: Nablus to: Jericho
+
+Passenger: ID: 1200644 date: 4072022 time: 11:15 from: Jericho to: Hebron
+
+Passenger: ID: 1200643 date: 4072022 time: 11:15 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200642 date: 4072022 time: 10:15 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200641 date: 4072022 time: 10:30 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200640 date: 4072022 time: 12:30 from: Nablus to: Jericho
+
+Passenger: ID: 1200638 date: 4072022 time: 11:15 from: Jerusalem to: Hebron
+
+Passenger: ID: 1200637 date: 4072022 time: 12:30 from: Jerusalem to: Al-Bireh
+
+Passenger: ID: 1200636 date: 4072022 time: 11:30 from: Hebron to: Jericho
+
+Passenger: ID: 1200635 date: 4072022 time: 11:30 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200634 date: 4072022 time: 10:30 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200633 date: 4072022 time: 12:15 from: Hebron to: Ramallah
+
+Passenger: ID: 1200631 date: 4072022 time: 12:15 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200630 date: 4072022 time: 10:30 from: Hebron to: Birzeit
+
+Passenger: ID: 1200627 date: 4072022 time: 11:15 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200626 date: 4072022 time: 11:15 from: Birzeit to: Nablus
+
+Passenger: ID: 1200625 date: 4072022 time: 12:30 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200624 date: 4072022 time: 12:15 from: Jerusalem to: Nablus
+
+Passenger: ID: 1200623 date: 4072022 time: 11:30 from: Birzeit to: Jericho
+
+Passenger: ID: 1200622 date: 4072022 time: 11:15 from: Birzeit to: Al-Amari
+
+Passenger: ID: 1200621 date: 4072022 time: 11:15 from: Jerusalem to: Ramallah
+
+Passenger: ID: 1200620 date: 4072022 time: 12:15 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200619 date: 4072022 time: 12:15 from: Nablus to: Al-Bireh
+
+Passenger: ID: 1200618 date: 4072022 time: 12:15 from: Jerusalem to: Al-Bireh
+
+Passenger: ID: 1200617 date: 4072022 time: 11:15 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200616 date: 4072022 time: 12:15 from: Ramallah to: Al-Amari
+
+Passenger: ID: 1200615 date: 4072022 time: 10:15 from: Al-Bireh to: Nablus
+
+Passenger: ID: 1200614 date: 4072022 time: 12:15 from: Birzeit to: Hebron
+
+Passenger: ID: 1200613 date: 4072022 time: 11:15 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200612 date: 4072022 time: 12:30 from: Ramallah to: Al-Bireh
+
+Passenger: ID: 1200611 date: 4072022 time: 12:30 from: Jerusalem to: Hebron
+
+Passenger: ID: 1200610 date: 4072022 time: 11:30 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200609 date: 4072022 time: 12:30 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200607 date: 4072022 time: 11:30 from: Birzeit to: Hebron
+
+Passenger: ID: 1200606 date: 4072022 time: 11:30 from: Ramallah to: Nablus
+
+Passenger: ID: 1200604 date: 4072022 time: 12:15 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200603 date: 4072022 time: 11:15 from: Hebron to: Jericho
+
+Passenger: ID: 1200602 date: 4072022 time: 11:15 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200601 date: 4072022 time: 12:15 from: Hebron to: Birzeit
+
+Passenger: ID: 1200600 date: 4072022 time: 11:15 from: Nablus to: Hebron
+
+Passenger: ID: 1200599 date: 4072022 time: 11:15 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200598 date: 4072022 time: 12:30 from: Ramallah to: Al-Bireh
+
+Passenger: ID: 1200597 date: 4072022 time: 11:15 from: Nablus to: Hebron
+
+Passenger: ID: 1200596 date: 4072022 time: 10:30 from: Hebron to: Jericho
+
+Passenger: ID: 1200595 date: 4072022 time: 10:30 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200594 date: 4072022 time: 11:30 from: Jericho to: Hebron
+
+Passenger: ID: 1200593 date: 4072022 time: 10:30 from: Jericho to: Hebron
+
+Passenger: ID: 1200592 date: 4072022 time: 11:15 from: Ramallah to: Hebron
+
+Passenger: ID: 1200591 date: 4072022 time: 12:30 from: Hebron to: Ramallah
+
+Passenger: ID: 1200590 date: 4072022 time: 11:15 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200589 date: 4072022 time: 10:15 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200588 date: 4072022 time: 11:30 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200587 date: 4072022 time: 12:15 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200586 date: 4072022 time: 11:30 from: Nablus to: Jericho
+
+Passenger: ID: 1200585 date: 4072022 time: 11:30 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200584 date: 4072022 time: 12:15 from: Birzeit to: Al-Amari
+
+Passenger: ID: 1200583 date: 4072022 time: 12:15 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200582 date: 4072022 time: 11:30 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200581 date: 4072022 time: 12:30 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200580 date: 4072022 time: 12:30 from: Nablus to: Birzeit
+
+Passenger: ID: 1200579 date: 4072022 time: 11:15 from: Nablus to: Ramallah
+
+Passenger: ID: 1200577 date: 4072022 time: 10:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200576 date: 4072022 time: 12:15 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200575 date: 4072022 time: 11:15 from: Ramallah to: Jericho
+
+Passenger: ID: 1200574 date: 4072022 time: 10:30 from: Hebron to: Birzeit
+
+Passenger: ID: 1200573 date: 4072022 time: 11:15 from: Jericho to: Birzeit
+
+Passenger: ID: 1200572 date: 4072022 time: 11:30 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200571 date: 4072022 time: 11:15 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200570 date: 4072022 time: 11:15 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200568 date: 4072022 time: 11:30 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200567 date: 4072022 time: 11:30 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200566 date: 4072022 time: 11:30 from: Birzeit to: Nablus
+
+Passenger: ID: 1200565 date: 4072022 time: 11:15 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200564 date: 4072022 time: 11:15 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200562 date: 4072022 time: 10:15 from: Ramallah to: Hebron
+
+Passenger: ID: 1200559 date: 4072022 time: 12:30 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200558 date: 4072022 time: 11:30 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200557 date: 4072022 time: 11:15 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200556 date: 4072022 time: 11:15 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200555 date: 4072022 time: 12:15 from: Hebron to: Al-Amari
+
+Passenger: ID: 1200554 date: 4072022 time: 12:30 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200553 date: 4072022 time: 10:30 from: Birzeit to: Nablus
+
+Passenger: ID: 1200552 date: 4072022 time: 11:30 from: Jericho to: Hebron
+
+Passenger: ID: 1200551 date: 4072022 time: 11:15 from: Hebron to: Jericho
+
+Passenger: ID: 1200550 date: 4072022 time: 11:15 from: Hebron to: Birzeit
+
+Passenger: ID: 1200549 date: 4072022 time: 10:30 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200548 date: 4072022 time: 10:30 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200547 date: 4072022 time: 11:15 from: Ramallah to: Jericho
+
+Passenger: ID: 1200546 date: 4072022 time: 10:30 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200545 date: 4072022 time: 10:30 from: Ramallah to: Jericho
+
+Passenger: ID: 1200544 date: 4072022 time: 10:15 from: Jerusalem to: Al-Bireh
+
+Passenger: ID: 1200543 date: 4072022 time: 11:15 from: Ramallah to: Jericho
+
+Passenger: ID: 1200542 date: 4072022 time: 10:15 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200541 date: 4072022 time: 10:15 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200538 date: 4072022 time: 12:30 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200537 date: 4072022 time: 12:30 from: Birzeit to: Nablus
+
+Passenger: ID: 1200536 date: 4072022 time: 10:15 from: Hebron to: Birzeit
+
+Passenger: ID: 1200535 date: 4072022 time: 10:30 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200534 date: 4072022 time: 10:15 from: Birzeit to: Nablus
+
+Passenger: ID: 1200533 date: 4072022 time: 11:30 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200532 date: 4072022 time: 12:15 from: Jericho to: Al-Bireh
+
+Passenger: ID: 1200531 date: 4072022 time: 10:30 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200530 date: 4072022 time: 11:30 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200528 date: 4072022 time: 11:15 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200527 date: 4072022 time: 12:30 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200526 date: 4072022 time: 11:15 from: Jerusalem to: Al-Bireh
+
+Passenger: ID: 1200525 date: 4072022 time: 11:30 from: Ramallah to: Hebron
+
+Passenger: ID: 1200524 date: 4072022 time: 12:15 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200523 date: 4072022 time: 10:30 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200522 date: 4072022 time: 11:15 from: Ramallah to: Jericho
+
+Passenger: ID: 1200521 date: 4072022 time: 12:30 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200520 date: 4072022 time: 12:15 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200519 date: 4072022 time: 11:30 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200518 date: 4072022 time: 11:30 from: Hebron to: Jericho
+
+Passenger: ID: 1200517 date: 4072022 time: 10:15 from: Jericho to: Birzeit
+
+Passenger: ID: 1200516 date: 4072022 time: 12:15 from: Jericho to: Hebron
+
+Passenger: ID: 1200515 date: 4072022 time: 12:30 from: Hebron to: Jericho
+
+Passenger: ID: 1200514 date: 4072022 time: 11:15 from: Hebron to: Nablus
+
+Passenger: ID: 1200512 date: 4072022 time: 12:15 from: Ramallah to: Al-Bireh
+
+Passenger: ID: 1200511 date: 4072022 time: 12:15 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200510 date: 4072022 time: 12:30 from: Hebron to: Jericho
+
+Passenger: ID: 1200509 date: 4072022 time: 11:30 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200506 date: 4072022 time: 10:30 from: Ramallah to: Jericho
+
+Passenger: ID: 1200505 date: 4072022 time: 12:15 from: Al-Bireh to: Nablus
+
+Passenger: ID: 1200504 date: 4072022 time: 10:15 from: Jericho to: Al-Bireh
+
+Passenger: ID: 1200503 date: 4072022 time: 12:15 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200502 date: 4072022 time: 10:30 from: Birzeit to: Nablus
+
+Passenger: ID: 1200501 date: 4072022 time: 12:30 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200500 date: 4072022 time: 10:15 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200499 date: 4072022 time: 12:15 from: Nablus to: Al-Bireh
+
+Passenger: ID: 1200498 date: 4072022 time: 10:30 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200496 date: 4072022 time: 12:30 from: Ramallah to: Nablus
+
+Passenger: ID: 1200495 date: 4072022 time: 10:15 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200494 date: 4072022 time: 12:15 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200493 date: 4072022 time: 10:15 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200492 date: 4072022 time: 11:30 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200491 date: 4072022 time: 11:30 from: Nablus to: Hebron
+
+Passenger: ID: 1200490 date: 4072022 time: 12:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200489 date: 4072022 time: 12:15 from: Hebron to: Birzeit
+
+Passenger: ID: 1200488 date: 4072022 time: 10:15 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200487 date: 4072022 time: 11:30 from: Jerusalem to: Al-Bireh
+
+Passenger: ID: 1200486 date: 4072022 time: 12:30 from: Hebron to: Al-Bireh
+
+Passenger: ID: 1200485 date: 4072022 time: 12:30 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200484 date: 4072022 time: 10:30 from: Nablus to: Jericho
+
+Passenger: ID: 1200483 date: 4072022 time: 12:30 from: Nablus to: Al-Bireh
+
+Passenger: ID: 1200482 date: 4072022 time: 12:15 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200481 date: 4072022 time: 12:30 from: Birzeit to: Nablus
+
+Passenger: ID: 1200479 date: 4072022 time: 10:30 from: Birzeit to: Jericho
+
+Passenger: ID: 1200478 date: 4072022 time: 11:15 from: Birzeit to: Nablus
+
+Passenger: ID: 1200477 date: 4072022 time: 10:30 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200476 date: 4072022 time: 11:30 from: Jerusalem to: Hebron
+
+Passenger: ID: 1200475 date: 4072022 time: 10:30 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200474 date: 4072022 time: 11:15 from: Jericho to: Hebron
+
+Passenger: ID: 1200473 date: 4072022 time: 11:30 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200472 date: 4072022 time: 12:15 from: Jericho to: Hebron
+
+Passenger: ID: 1200470 date: 4072022 time: 12:30 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200469 date: 4072022 time: 10:15 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200468 date: 4072022 time: 11:30 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200467 date: 4072022 time: 11:15 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200466 date: 4072022 time: 12:15 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200465 date: 4072022 time: 12:30 from: Jericho to: Nablus
+
+Passenger: ID: 1200464 date: 4072022 time: 12:30 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200462 date: 4072022 time: 10:15 from: Ramallah to: Hebron
+
+Passenger: ID: 1200460 date: 4072022 time: 12:15 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200459 date: 4072022 time: 11:30 from: Ramallah to: Al-Amari
+
+Passenger: ID: 1200458 date: 4072022 time: 12:15 from: Hebron to: Birzeit
+
+Passenger: ID: 1200456 date: 4072022 time: 10:30 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200454 date: 4072022 time: 12:30 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200453 date: 4072022 time: 11:15 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200452 date: 4072022 time: 10:30 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200450 date: 4072022 time: 11:15 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200449 date: 4072022 time: 11:15 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200447 date: 4072022 time: 12:15 from: Nablus to: Al-Bireh
+
+Passenger: ID: 1200446 date: 4072022 time: 11:30 from: Hebron to: Birzeit
+
+Passenger: ID: 1200445 date: 4072022 time: 10:30 from: Jericho to: Birzeit
+
+Passenger: ID: 1200444 date: 4072022 time: 11:30 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200442 date: 4072022 time: 11:15 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200441 date: 4072022 time: 12:30 from: Hebron to: Jericho
+
+Passenger: ID: 1200438 date: 4072022 time: 11:30 from: Nablus to: Birzeit
+
+Passenger: ID: 1200437 date: 4072022 time: 11:30 from: Ramallah to: Al-Amari
+
+Passenger: ID: 1200436 date: 4072022 time: 10:30 from: Jericho to: Birzeit
+
+Passenger: ID: 1200435 date: 4072022 time: 11:30 from: Ramallah to: Al-Bireh
+
+Passenger: ID: 1200431 date: 4072022 time: 10:30 from: Hebron to: Jericho
+
+Passenger: ID: 1200429 date: 4072022 time: 12:30 from: Nablus to: Jericho
+
+Passenger: ID: 1200428 date: 4072022 time: 10:30 from: Jericho to: Hebron
+
+Passenger: ID: 1200427 date: 4072022 time: 10:30 from: Nablus to: Hebron
+
+Passenger: ID: 1200423 date: 4072022 time: 10:30 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200422 date: 4072022 time: 12:30 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200421 date: 4072022 time: 12:30 from: Birzeit to: Nablus
+
+Passenger: ID: 1200420 date: 4072022 time: 10:15 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200419 date: 4072022 time: 12:15 from: Nablus to: Birzeit
+
+Passenger: ID: 1200418 date: 4072022 time: 10:30 from: Jericho to: Hebron
+
+Passenger: ID: 1200417 date: 4072022 time: 12:15 from: Hebron to: Birzeit
+
+Passenger: ID: 1200416 date: 4072022 time: 10:15 from: Jerusalem to: Hebron
+
+Passenger: ID: 1200415 date: 4072022 time: 10:30 from: Hebron to: Ramallah
+
+Passenger: ID: 1200414 date: 4072022 time: 12:30 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200413 date: 4072022 time: 12:30 from: Birzeit to: Nablus
+
+Passenger: ID: 1200411 date: 4072022 time: 12:30 from: Jerusalem to: Al-Amari
+
+Passenger: ID: 1200410 date: 4072022 time: 11:15 from: Ramallah to: Jericho
+
+Passenger: ID: 1200409 date: 4072022 time: 12:30 from: Nablus to: Al-Bireh
+
+Passenger: ID: 1200408 date: 4072022 time: 11:15 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200407 date: 4072022 time: 11:30 from: Birzeit to: Al-Amari
+
+Passenger: ID: 1200406 date: 4072022 time: 12:15 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200405 date: 4072022 time: 10:15 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200404 date: 4072022 time: 10:30 from: Nablus to: Birzeit
+
+Passenger: ID: 1200403 date: 4072022 time: 12:15 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200402 date: 4072022 time: 10:15 from: Birzeit to: Nablus
+
+Passenger: ID: 1200401 date: 4072022 time: 12:15 from: Nablus to: Ramallah
+
+Passenger: ID: 1200400 date: 4072022 time: 10:15 from: Birzeit to: Nablus
+
+Passenger: ID: 1200399 date: 4072022 time: 12:30 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200398 date: 4072022 time: 10:15 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200394 date: 4072022 time: 10:30 from: Nablus to: Birzeit
+
+Passenger: ID: 1200393 date: 4072022 time: 11:30 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200392 date: 4072022 time: 12:30 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200391 date: 4072022 time: 10:30 from: Ramallah to: Hebron
+
+Passenger: ID: 1200389 date: 4072022 time: 12:15 from: Al-Bireh to: Nablus
+
+Passenger: ID: 1200388 date: 4072022 time: 12:15 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200387 date: 4072022 time: 12:30 from: Birzeit to: Jericho
+
+Passenger: ID: 1200386 date: 4072022 time: 11:15 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200384 date: 4072022 time: 10:30 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200383 date: 4072022 time: 11:30 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200381 date: 4072022 time: 12:30 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200380 date: 4072022 time: 12:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200379 date: 4072022 time: 11:15 from: Birzeit to: Hebron
+
+Passenger: ID: 1200377 date: 4072022 time: 10:15 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200376 date: 4072022 time: 10:30 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200375 date: 4072022 time: 12:15 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200374 date: 4072022 time: 12:30 from: Jericho to: Al-Bireh
+
+Passenger: ID: 1200373 date: 4072022 time: 10:30 from: Ramallah to: Hebron
+
+Passenger: ID: 1200371 date: 4072022 time: 10:15 from: Jericho to: Al-Bireh
+
+Passenger: ID: 1200369 date: 4072022 time: 12:15 from: Birzeit to: Nablus
+
+Passenger: ID: 1200368 date: 4072022 time: 11:15 from: Al-Bireh to: Nablus
+
+Passenger: ID: 1200367 date: 4072022 time: 12:30 from: Ramallah to: Al-Bireh
+
+Passenger: ID: 1200365 date: 4072022 time: 11:30 from: Hebron to: Birzeit
+
+Passenger: ID: 1200364 date: 4072022 time: 10:15 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200363 date: 4072022 time: 12:30 from: Hebron to: Ramallah
+
+Passenger: ID: 1200362 date: 4072022 time: 12:15 from: Hebron to: Jericho
+
+Passenger: ID: 1200361 date: 4072022 time: 11:15 from: Jerusalem to: Hebron
+
+Passenger: ID: 1200360 date: 4072022 time: 11:30 from: Ramallah to: Nablus
+
+Passenger: ID: 1200358 date: 4072022 time: 11:15 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200357 date: 4072022 time: 12:30 from: Nablus to: Hebron
+
+Passenger: ID: 1200356 date: 4072022 time: 12:30 from: Hebron to: Jericho
+
+Passenger: ID: 1200354 date: 4072022 time: 11:15 from: Hebron to: Birzeit
+
+Passenger: ID: 1200353 date: 4072022 time: 10:15 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200352 date: 4072022 time: 11:30 from: Jericho to: Hebron
+
+Passenger: ID: 1200351 date: 4072022 time: 12:30 from: Ramallah to: Hebron
+
+Passenger: ID: 1200349 date: 4072022 time: 10:15 from: Al-Bireh to: Birzeit
+
+Passenger: ID: 1200347 date: 4072022 time: 11:15 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200346 date: 4072022 time: 10:30 from: Jericho to: Birzeit
+
+Passenger: ID: 1200345 date: 4072022 time: 12:15 from: Birzeit to: Nablus
+
+Passenger: ID: 1200344 date: 4072022 time: 11:15 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200343 date: 4072022 time: 11:15 from: Ramallah to: Nablus
+
+Passenger: ID: 1200342 date: 4072022 time: 11:15 from: Al-Bireh to: Birzeit
+
+Passenger: ID: 1200341 date: 4072022 time: 10:30 from: Birzeit to: Hebron
+
+Passenger: ID: 1200339 date: 4072022 time: 11:30 from: Jerusalem to: Hebron
+
+Passenger: ID: 1200338 date: 4072022 time: 12:30 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200337 date: 4072022 time: 11:30 from: Jericho to: Hebron
+
+Passenger: ID: 1200336 date: 4072022 time: 10:30 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200334 date: 4072022 time: 10:30 from: Ramallah to: Al-Amari
+
+Passenger: ID: 1200332 date: 4072022 time: 11:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200331 date: 4072022 time: 12:30 from: Al-Amari to: Nablus
+
+Passenger: ID: 1200330 date: 4072022 time: 12:30 from: Al-Amari to: Nablus
+
+Passenger: ID: 1200328 date: 4072022 time: 11:30 from: Jerusalem to: Hebron
+
+Passenger: ID: 1200327 date: 4072022 time: 10:15 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200326 date: 4072022 time: 10:15 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200325 date: 4072022 time: 10:15 from: Hebron to: Nablus
+
+Passenger: ID: 1200324 date: 4072022 time: 11:30 from: Jerusalem to: Al-Bireh
+
+Passenger: ID: 1200323 date: 4072022 time: 12:15 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200322 date: 4072022 time: 11:30 from: Ramallah to: Al-Bireh
+
+Passenger: ID: 1200321 date: 4072022 time: 12:30 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200320 date: 4072022 time: 12:30 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200319 date: 4072022 time: 11:30 from: Hebron to: Nablus
+
+Passenger: ID: 1200316 date: 4072022 time: 10:15 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200314 date: 4072022 time: 11:30 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200313 date: 4072022 time: 12:30 from: Hebron to: Nablus
+
+Passenger: ID: 1200312 date: 4072022 time: 10:15 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200311 date: 4072022 time: 11:30 from: Ramallah to: Hebron
+
+Passenger: ID: 1200310 date: 4072022 time: 11:30 from: Jericho to: Al-Bireh
+
+Passenger: ID: 1200309 date: 4072022 time: 12:15 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200308 date: 4072022 time: 12:15 from: Jerusalem to: Nablus
+
+Passenger: ID: 1200307 date: 4072022 time: 11:15 from: Nablus to: Hebron
+
+Passenger: ID: 1200306 date: 4072022 time: 11:15 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200305 date: 4072022 time: 12:15 from: Nablus to: Jericho
+
+Passenger: ID: 1200304 date: 4072022 time: 10:15 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200303 date: 4072022 time: 12:15 from: Ramallah to: Al-Bireh
+
+Passenger: ID: 1200300 date: 4072022 time: 11:15 from: Ramallah to: Hebron
+
+Passenger: ID: 1200299 date: 4072022 time: 12:15 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200298 date: 4072022 time: 12:30 from: Al-Bireh to: Birzeit
+
+Passenger: ID: 1200297 date: 4072022 time: 10:30 from: Nablus to: Ramallah
+
+Passenger: ID: 1200296 date: 4072022 time: 11:30 from: Hebron to: Nablus
+
+Passenger: ID: 1200295 date: 4072022 time: 12:15 from: Jericho to: Birzeit
+
+Passenger: ID: 1200294 date: 4072022 time: 10:30 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200293 date: 4072022 time: 12:30 from: Jericho to: Al-Bireh
+
+Passenger: ID: 1200292 date: 4072022 time: 10:30 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200291 date: 4072022 time: 10:15 from: Nablus to: Ramallah
+
+Passenger: ID: 1200290 date: 4072022 time: 10:15 from: Birzeit to: Hebron
+
+Passenger: ID: 1200289 date: 4072022 time: 11:30 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200288 date: 4072022 time: 12:30 from: Birzeit to: Jericho
+
+Passenger: ID: 1200287 date: 4072022 time: 10:30 from: Hebron to: Birzeit
+
+Passenger: ID: 1200285 date: 4072022 time: 12:30 from: Hebron to: Al-Bireh
+
+Passenger: ID: 1200284 date: 4072022 time: 11:15 from: Jericho to: Hebron
+
+Passenger: ID: 1200283 date: 4072022 time: 12:30 from: Hebron to: Birzeit
+
+Passenger: ID: 1200282 date: 4072022 time: 11:15 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200281 date: 4072022 time: 12:30 from: Birzeit to: Hebron
+
+Passenger: ID: 1200278 date: 4072022 time: 10:15 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200276 date: 4072022 time: 10:15 from: Ramallah to: Hebron
+
+Passenger: ID: 1200272 date: 4072022 time: 12:30 from: Ramallah to: Jericho
+
+Passenger: ID: 1200271 date: 4072022 time: 10:30 from: Birzeit to: Nablus
+
+Passenger: ID: 1200270 date: 4072022 time: 11:30 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200269 date: 4072022 time: 12:15 from: Al-Bireh to: Birzeit
+
+Passenger: ID: 1200268 date: 4072022 time: 11:30 from: Ramallah to: Hebron
+
+Passenger: ID: 1200267 date: 4072022 time: 11:30 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200266 date: 4072022 time: 12:30 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200265 date: 4072022 time: 11:15 from: Jericho to: Hebron
+
+Passenger: ID: 1200264 date: 4072022 time: 12:15 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200262 date: 4072022 time: 12:15 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200260 date: 4072022 time: 11:30 from: Jerusalem to: Al-Amari
+
+Passenger: ID: 1200259 date: 4072022 time: 12:30 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200258 date: 4072022 time: 10:30 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200257 date: 4072022 time: 10:30 from: Nablus to: Hebron
+
+Passenger: ID: 1200256 date: 4072022 time: 11:15 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200254 date: 4072022 time: 12:30 from: Hebron to: Jericho
+
+Passenger: ID: 1200253 date: 4072022 time: 12:30 from: Jericho to: Nablus
+
+Passenger: ID: 1200252 date: 4072022 time: 12:15 from: Ramallah to: Nablus
+
+Passenger: ID: 1200250 date: 4072022 time: 12:30 from: Hebron to: Al-Bireh
+
+Passenger: ID: 1200249 date: 4072022 time: 12:30 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200247 date: 4072022 time: 10:15 from: Ramallah to: Hebron
+
+Passenger: ID: 1200246 date: 4072022 time: 12:30 from: Ramallah to: Nablus
+
+Passenger: ID: 1200245 date: 4072022 time: 10:15 from: Jericho to: Birzeit
+
+Passenger: ID: 1200244 date: 4072022 time: 11:15 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200243 date: 4072022 time: 12:30 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200242 date: 4072022 time: 12:15 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200240 date: 4072022 time: 10:15 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200239 date: 4072022 time: 10:15 from: Al-Bireh to: Birzeit
+
+Passenger: ID: 1200238 date: 4072022 time: 10:30 from: Birzeit to: Jericho
+
+Passenger: ID: 1200237 date: 4072022 time: 11:15 from: Al-Bireh to: Birzeit
+
+Passenger: ID: 1200236 date: 4072022 time: 11:30 from: Hebron to: Ramallah
+
+Passenger: ID: 1200235 date: 4072022 time: 11:15 from: Birzeit to: Hebron
+
+Passenger: ID: 1200234 date: 4072022 time: 12:15 from: Jericho to: Al-Bireh
+
+Passenger: ID: 1200233 date: 4072022 time: 11:15 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200232 date: 4072022 time: 12:30 from: Nablus to: Jericho
+
+Passenger: ID: 1200230 date: 4072022 time: 12:30 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200229 date: 4072022 time: 10:30 from: Hebron to: Ramallah
+
+Passenger: ID: 1200228 date: 4072022 time: 11:15 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200227 date: 4072022 time: 12:15 from: Jerusalem to: Nablus
+
+Passenger: ID: 1200226 date: 4072022 time: 12:15 from: Birzeit to: Al-Amari
+
+Passenger: ID: 1200225 date: 4072022 time: 10:30 from: Nablus to: Birzeit
+
+Passenger: ID: 1200224 date: 4072022 time: 12:30 from: Jerusalem to: Nablus
+
+Passenger: ID: 1200223 date: 4072022 time: 10:30 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200221 date: 4072022 time: 11:30 from: Jericho to: Birzeit
+
+Passenger: ID: 1200218 date: 4072022 time: 11:15 from: Al-Bireh to: Birzeit
+
+Passenger: ID: 1200216 date: 4072022 time: 12:30 from: Jerusalem to: Ramallah
+
+Passenger: ID: 1200214 date: 4072022 time: 10:30 from: Birzeit to: Hebron
+
+Passenger: ID: 1200213 date: 4072022 time: 11:15 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200212 date: 4072022 time: 11:30 from: Ramallah to: Al-Amari
+
+Passenger: ID: 1200211 date: 4072022 time: 11:15 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200210 date: 4072022 time: 12:30 from: Birzeit to: Al-Amari
+
+Passenger: ID: 1200209 date: 4072022 time: 10:30 from: Hebron to: Birzeit
+
+Passenger: ID: 1200208 date: 4072022 time: 11:30 from: Nablus to: Birzeit
+
+Passenger: ID: 1200207 date: 4072022 time: 11:15 from: Nablus to: Ramallah
+
+Passenger: ID: 1200206 date: 4072022 time: 10:15 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200205 date: 4072022 time: 12:30 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200204 date: 4072022 time: 10:15 from: Nablus to: Birzeit
+
+Passenger: ID: 1200203 date: 4072022 time: 11:30 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200202 date: 4072022 time: 12:30 from: Hebron to: Al-Bireh
+
+Passenger: ID: 1200201 date: 4072022 time: 11:30 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200200 date: 4072022 time: 12:30 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200199 date: 4072022 time: 12:30 from: Hebron to: Ramallah
+
+Passenger: ID: 1200198 date: 4072022 time: 10:30 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200197 date: 4072022 time: 12:30 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200196 date: 4072022 time: 10:30 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200195 date: 4072022 time: 11:30 from: Al-Bireh to: Nablus
+
+Passenger: ID: 1200194 date: 4072022 time: 10:15 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200193 date: 4072022 time: 12:30 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200192 date: 4072022 time: 11:30 from: Birzeit to: Nablus
+
+Passenger: ID: 1200191 date: 4072022 time: 12:15 from: Al-Amari to: Nablus
+
+Passenger: ID: 1200190 date: 4072022 time: 12:30 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200189 date: 4072022 time: 12:15 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200188 date: 4072022 time: 11:30 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200187 date: 4072022 time: 10:30 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200186 date: 4072022 time: 10:30 from: Jerusalem to: Al-Amari
+
+Passenger: ID: 1200185 date: 4072022 time: 11:15 from: Ramallah to: Al-Bireh
+
+Passenger: ID: 1200184 date: 4072022 time: 11:15 from: Jericho to: Al-Bireh
+
+Passenger: ID: 1200183 date: 4072022 time: 10:15 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200182 date: 4072022 time: 11:15 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200181 date: 4072022 time: 10:30 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200180 date: 4072022 time: 12:30 from: Jericho to: Nablus
+
+Passenger: ID: 1200179 date: 4072022 time: 10:30 from: Jericho to: Hebron
+
+Passenger: ID: 1200178 date: 4072022 time: 12:30 from: Ramallah to: Hebron
+
+Passenger: ID: 1200176 date: 4072022 time: 11:30 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200175 date: 4072022 time: 12:30 from: Birzeit to: Nablus
+
+Passenger: ID: 1200174 date: 4072022 time: 11:30 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200173 date: 4072022 time: 11:30 from: Birzeit to: Nablus
+
+Passenger: ID: 1200172 date: 4072022 time: 12:30 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200171 date: 4072022 time: 12:30 from: Al-Amari to: Nablus
+
+Passenger: ID: 1200170 date: 4072022 time: 11:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200169 date: 4072022 time: 11:30 from: Jericho to: Hebron
+
+Passenger: ID: 1200168 date: 4072022 time: 12:15 from: Ramallah to: Al-Amari
+
+Passenger: ID: 1200167 date: 4072022 time: 12:30 from: Ramallah to: Jericho
+
+Passenger: ID: 1200166 date: 4072022 time: 12:15 from: Ramallah to: Hebron
+
+Passenger: ID: 1200165 date: 4072022 time: 10:15 from: Ramallah to: Al-Bireh
+
+Passenger: ID: 1200164 date: 4072022 time: 12:15 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200161 date: 4072022 time: 10:30 from: Ramallah to: Jericho
+
+Passenger: ID: 1200160 date: 4072022 time: 12:15 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200159 date: 4072022 time: 10:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200157 date: 4072022 time: 12:30 from: Jerusalem to: Hebron
+
+Passenger: ID: 1200155 date: 4072022 time: 11:15 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200154 date: 4072022 time: 12:15 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200153 date: 4072022 time: 12:15 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200152 date: 4072022 time: 12:15 from: Ramallah to: Nablus
+
+Passenger: ID: 1200151 date: 4072022 time: 11:30 from: Birzeit to: Al-Amari
+
+Passenger: ID: 1200150 date: 4072022 time: 12:15 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200149 date: 4072022 time: 11:30 from: Hebron to: Jericho
+
+Passenger: ID: 1200148 date: 4072022 time: 11:30 from: Jerusalem to: Al-Bireh
+
+Passenger: ID: 1200147 date: 4072022 time: 11:30 from: Hebron to: Jericho
+
+Passenger: ID: 1200146 date: 4072022 time: 11:15 from: Nablus to: Al-Amari
+
+Passenger: ID: 1200145 date: 4072022 time: 12:30 from: Al-Amari to: Birzeit
+
+Passenger: ID: 1200143 date: 4072022 time: 12:30 from: Birzeit to: Hebron
+
+Passenger: ID: 1200142 date: 4072022 time: 12:15 from: Birzeit to: Nablus
+
+Passenger: ID: 1200141 date: 4072022 time: 11:30 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200140 date: 4072022 time: 12:15 from: Jerusalem to: Ramallah
+
+Passenger: ID: 1200138 date: 4072022 time: 12:15 from: Nablus to: Ramallah
+
+Passenger: ID: 1200137 date: 4072022 time: 12:15 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200134 date: 4072022 time: 10:30 from: Nablus to: Hebron
+
+Passenger: ID: 1200133 date: 4072022 time: 12:15 from: Nablus to: Birzeit
+
+Passenger: ID: 1200132 date: 4072022 time: 12:15 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200131 date: 4072022 time: 11:30 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200130 date: 4072022 time: 11:15 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200129 date: 4072022 time: 12:15 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200128 date: 4072022 time: 12:30 from: Nablus to: Ramallah
+
+Passenger: ID: 1200127 date: 4072022 time: 11:30 from: Hebron to: Ramallah
+
+Passenger: ID: 1200126 date: 4072022 time: 10:15 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200125 date: 4072022 time: 10:15 from: Ramallah to: Jerusalem
+
+Passenger: ID: 1200124 date: 4072022 time: 10:15 from: Hebron to: Nablus
+
+Passenger: ID: 1200123 date: 4072022 time: 11:30 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200122 date: 4072022 time: 12:15 from: Jerusalem to: Ramallah
+
+Passenger: ID: 1200121 date: 4072022 time: 11:15 from: Al-Bireh to: Birzeit
+
+Passenger: ID: 1200119 date: 4072022 time: 11:30 from: Jericho to: Al-Bireh
+
+Passenger: ID: 1200118 date: 4072022 time: 10:30 from: Ramallah to: Jericho
+
+Passenger: ID: 1200117 date: 4072022 time: 12:30 from: Jericho to: Hebron
+
+Passenger: ID: 1200116 date: 4072022 time: 10:15 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200114 date: 4072022 time: 10:30 from: Jerusalem to: Al-Amari
+
+Passenger: ID: 1200113 date: 4072022 time: 11:30 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200112 date: 4072022 time: 11:15 from: Birzeit to: Jericho
+
+Passenger: ID: 1200111 date: 4072022 time: 12:15 from: Jerusalem to: Al-Bireh
+
+Passenger: ID: 1200110 date: 4072022 time: 12:15 from: Jericho to: Birzeit
+
+Passenger: ID: 1200109 date: 4072022 time: 11:30 from: Nablus to: Jericho
+
+Passenger: ID: 1200108 date: 4072022 time: 12:30 from: Birzeit to: Jericho
+
+Passenger: ID: 1200107 date: 4072022 time: 11:15 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200106 date: 4072022 time: 10:30 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200105 date: 4072022 time: 12:30 from: Jerusalem to: Al-Amari
+
+Passenger: ID: 1200104 date: 4072022 time: 12:30 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200103 date: 4072022 time: 12:15 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200102 date: 4072022 time: 11:15 from: Hebron to: Jericho
+
+Passenger: ID: 1200101 date: 4072022 time: 11:15 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200100 date: 4072022 time: 12:30 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200099 date: 4072022 time: 10:15 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200098 date: 4072022 time: 11:30 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200097 date: 4072022 time: 10:30 from: Birzeit to: Ramallah
+
+Passenger: ID: 1200096 date: 4072022 time: 10:15 from: Jericho to: Birzeit
+
+Passenger: ID: 1200095 date: 4072022 time: 10:15 from: Jericho to: Al-Bireh
+
+Passenger: ID: 1200094 date: 4072022 time: 10:15 from: Jericho to: Birzeit
+
+Passenger: ID: 1200093 date: 4072022 time: 12:15 from: Ramallah to: Al-Amari
+
+Passenger: ID: 1200092 date: 4072022 time: 11:30 from: Jerusalem to: Ramallah
+
+Passenger: ID: 1200091 date: 4072022 time: 10:15 from: Hebron to: Birzeit
+
+Passenger: ID: 1200090 date: 4072022 time: 11:30 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200089 date: 4072022 time: 12:30 from: Al-Bireh to: Nablus
+
+Passenger: ID: 1200088 date: 4072022 time: 12:15 from: Ramallah to: Al-Amari
+
+Passenger: ID: 1200086 date: 4072022 time: 10:30 from: Al-Amari to: Ramallah
+
+Passenger: ID: 1200085 date: 4072022 time: 12:30 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200084 date: 4072022 time: 12:15 from: Hebron to: Birzeit
+
+Passenger: ID: 1200082 date: 4072022 time: 11:30 from: Birzeit to: Nablus
+
+Passenger: ID: 1200081 date: 4072022 time: 12:30 from: Nablus to: Birzeit
+
+Passenger: ID: 1200080 date: 4072022 time: 10:15 from: Al-Bireh to: Birzeit
+
+Passenger: ID: 1200079 date: 4072022 time: 12:15 from: Ramallah to: Birzeit
+
+Passenger: ID: 1200078 date: 4072022 time: 10:30 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200077 date: 4072022 time: 11:15 from: Jericho to: Al-Amari
+
+Passenger: ID: 1200076 date: 4072022 time: 11:30 from: Al-Amari to: Hebron
+
+Passenger: ID: 1200075 date: 4072022 time: 11:30 from: Al-Bireh to: Jericho
+
+Passenger: ID: 1200074 date: 4072022 time: 10:15 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200073 date: 4072022 time: 12:30 from: Hebron to: Ramallah
+
+Passenger: ID: 1200072 date: 4072022 time: 10:15 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200071 date: 4072022 time: 12:30 from: Jerusalem to: Al-Amari
+
+Passenger: ID: 1200070 date: 4072022 time: 11:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200069 date: 4072022 time: 10:15 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200068 date: 4072022 time: 12:15 from: Ramallah to: Jericho
+
+Passenger: ID: 1200067 date: 4072022 time: 12:30 from: Al-Amari to: Birzeit
+
+Passenger: ID: 1200066 date: 4072022 time: 10:15 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200065 date: 4072022 time: 12:15 from: Hebron to: Jericho
+
+Passenger: ID: 1200064 date: 4072022 time: 12:15 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200063 date: 4072022 time: 11:30 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200062 date: 4072022 time: 12:30 from: Nablus to: Ramallah
+
+Passenger: ID: 1200060 date: 4072022 time: 10:15 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200059 date: 4072022 time: 12:30 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200058 date: 4072022 time: 11:15 from: Al-Bireh to: Al-Amari
+
+Passenger: ID: 1200056 date: 4072022 time: 10:30 from: Hebron to: Nablus
+
+Passenger: ID: 1200055 date: 4072022 time: 10:30 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200053 date: 4072022 time: 12:15 from: Al-Amari to: Jerusalem
+
+Passenger: ID: 1200052 date: 4072022 time: 12:15 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200051 date: 4072022 time: 12:15 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200049 date: 4072022 time: 10:15 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200048 date: 4072022 time: 12:30 from: Ramallah to: Hebron
+
+Passenger: ID: 1200047 date: 4072022 time: 10:30 from: Jerusalem to: Al-Bireh
+
+Passenger: ID: 1200046 date: 4072022 time: 12:15 from: Nablus to: Jericho
+
+Passenger: ID: 1200045 date: 4072022 time: 12:15 from: Hebron to: Nablus
+
+Passenger: ID: 1200042 date: 4072022 time: 10:15 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200041 date: 4072022 time: 11:15 from: Nablus to: Birzeit
+
+Passenger: ID: 1200040 date: 4072022 time: 10:30 from: Nablus to: Jerusalem
+
+Passenger: ID: 1200039 date: 4072022 time: 10:30 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200037 date: 4072022 time: 12:30 from: Al-Amari to: Birzeit
+
+Passenger: ID: 1200036 date: 4072022 time: 11:30 from: Hebron to: Ramallah
+
+Passenger: ID: 1200035 date: 4072022 time: 11:30 from: Hebron to: Jericho
+
+Passenger: ID: 1200034 date: 4072022 time: 12:15 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200032 date: 4072022 time: 10:30 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200031 date: 4072022 time: 12:15 from: Birzeit to: Jerusalem
+
+Passenger: ID: 1200030 date: 4072022 time: 12:15 from: Jericho to: Birzeit
+
+Passenger: ID: 1200029 date: 4072022 time: 12:30 from: Jerusalem to: Al-Bireh
+
+Passenger: ID: 1200028 date: 4072022 time: 11:15 from: Al-Amari to: Al-Bireh
+
+Passenger: ID: 1200027 date: 4072022 time: 12:30 from: Al-Amari to: Birzeit
+
+Passenger: ID: 1200026 date: 4072022 time: 10:30 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200025 date: 4072022 time: 11:30 from: Birzeit to: Al-Amari
+
+Passenger: ID: 1200024 date: 4072022 time: 12:30 from: Al-Bireh to: Ramallah
+
+Passenger: ID: 1200023 date: 4072022 time: 12:15 from: Al-Bireh to: Hebron
+
+Passenger: ID: 1200022 date: 4072022 time: 12:15 from: Hebron to: Jericho
+
+Passenger: ID: 1200021 date: 4072022 time: 10:30 from: Nablus to: Hebron
+
+Passenger: ID: 1200020 date: 4072022 time: 11:30 from: Birzeit to: Hebron
+
+Passenger: ID: 1200019 date: 4072022 time: 12:15 from: Hebron to: Jerusalem
+
+Passenger: ID: 1200018 date: 4072022 time: 12:15 from: Hebron to: Birzeit
+
+Passenger: ID: 1200017 date: 4072022 time: 11:15 from: Birzeit to: Hebron
+
+Passenger: ID: 1200016 date: 4072022 time: 11:30 from: Jerusalem to: Jericho
+
+Passenger: ID: 1200015 date: 4072022 time: 12:15 from: Al-Bireh to: Nablus
+
+Passenger: ID: 1200014 date: 4072022 time: 12:15 from: Al-Bireh to: Jerusalem
+
+Passenger: ID: 1200013 date: 4072022 time: 11:15 from: Birzeit to: Jericho
+
+Passenger: ID: 1200012 date: 4072022 time: 11:15 from: Hebron to: Birzeit
+
+Passenger: ID: 1200010 date: 4072022 time: 10:30 from: Hebron to: Nablus
+
+Passenger: ID: 1200009 date: 4072022 time: 12:30 from: Jericho to: Jerusalem
+
+Passenger: ID: 1200007 date: 4072022 time: 10:30 from: Jerusalem to: Birzeit
+
+Passenger: ID: 1200006 date: 4072022 time: 11:15 from: Ramallah to: Al-Amari
+
+Passenger: ID: 1200005 date: 4072022 time: 11:15 from: Al-Bireh to: Al-Amari
+
